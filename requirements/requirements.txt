@@ -1,0 +1,17 @@
+carbontracker
+codecarbon
+eco2ai
+GPUtil
+numpy
+pandas
+psutil
+pynvml
+requests
+scikit-learn
+tqdm
+
+thop
+
+PyP100
+
+matplotlib
