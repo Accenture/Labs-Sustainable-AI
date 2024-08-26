@@ -43,7 +43,7 @@ threadpoolctl==3.1.0
 torch==1.13.1+cu116
 torchvision==0.14.1+cu116
 tornado==6.2
-tqdm==4.64.1
+tqdm==4.66.3
 typing_extensions==4.4.0
 tzdata==2022.7
 tzlocal==4.2

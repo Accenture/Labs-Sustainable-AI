@@ -12,6 +12,6 @@ pynvml==11.5.0
 requests==2.31.0
 scikit-learn==1.2.0
 
-tqdm==4.64.1
+tqdm==4.66.3
 
 PyP100==0.1.4
