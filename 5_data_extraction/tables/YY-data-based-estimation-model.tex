@@ -1,0 +1,17 @@
+\paragraph{YY studies in the group ``data-based estimation model''} 
+ \label{tab:YY-data-based-estimation-model} 
+\begin{longtable}{|>{\raggedright\arraybackslash}p{2cm}|p{5.9cm}|>{\raggedright\arraybackslash}p{1.85cm}|>{\raggedright\arraybackslash}p{2cm}|>{\raggedright\arraybackslash}p{1.5cm}|p{0.7cm}|}
+\toprule
+\bfseries study & \bfseries detail & \bfseries target task & \bfseries constraints & \bfseries available & \bfseries cites \\
+\midrule 
+\endhead
+\cite{dariol2023}, 2023, \acrshort{nu} & Based on SystemC simulation (from the authors), regression model with simulated execution traces as inputs, accounting for CPU and RAM on FPGA/embeded devices & \acrshort{nn}s deployment & no & no & 0 \\
+\cite{metz2022b}, 2022, \acrshort{nu} & Random Forest Tree regression model with \acrshort{ptx} code and \acrshort{cnn} characteristics as inputs, accounting for GPU and RAM & \acrshort{cnn} inference & cuda-based \acrshort{cnn}, Nvidia GPU & no & 3 \\
+\cite{metz2022a}, 2022, \acrshort{nu} & K-Nearest Neighbor regression model with \acrshort{ptx} code and \acrshort{cnn} characteristics as inputs, accounting for GPU and RAM & \acrshort{cnn} inference & cuda-based \acrshort{cnn}, Nvidia GPU & no & 4 \\
+\cite{goel2021}, 2021, Energy\acrshort{nn} & Linear regression model with \acrshort{mac} count and memory needed as inputs, accounting for Deep Learning Processor Unit (type of \acrshort{cnn} accelerator) on embedded platforms & \acrshort{cnn} training and inference & no & no & 2 \\
+\cite{igescu2021}, 2021, EcoML, based on Cumulator & ML models (Decision Tree, Linear Regression, \acrshort{nn}, Random Forest) with training dataset of a given ML model as input, accounting for CPU, RAM and GPU & training for fixed set of ML models & Python, Sklearn & PyPI package, code \href{https://github.com/epfl-iglobalhealth/CS433-2021-ecoML}{\ref*{link-igescu2021}} & 0 \\
+\cite{metz2021}, 2021, \acrshort{nu} & ML model (\acrshort{nn}) with GPGPU architecture and \acrshort{ptx} code as inputs, accounting for GPU & \acrshort{cnn} inference & cuda-based \acrshort{cnn}, Nvidia GPU & no & 4 \\
+\cite{rodrigues2018}, 2018, SyNERGY & ML model (Linear Regression) with \acrshort{mac} count as input, accounting for CPU, RAM and peripherals of Jetson TX1 board & \acrshort{cnn} inference & Jetson TX1 board & (part of) code \href{https://github.com/Crefeda/SyNERGY }{\ref*{link-rodrigues2018}} & 41 \\
+\cite{cai2017}, 2017, NeuralP & (Neuralpower) Sparse polynomial regression model with \acrshort{cnn} architecture and target platform as inputs, accounting for GPU & \acrshort{cnn} inference & no & code, model \href{https://github.com/enyac-group/NeuralPower }{\ref*{link-cai2017}} & 146 \\
+\bottomrule
+\end{longtable}

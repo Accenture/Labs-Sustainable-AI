@@ -1,0 +1,13 @@
+\paragraph{YN studies in the group ``on-chip sensors''} 
+ \label{tab:YN-on-chip-sensors} 
+\begin{longtable}{|>{\raggedright\arraybackslash}p{2.75cm}|p{11.75cm}|p{0.7cm}|}
+\toprule
+\bfseries study & \bfseries detail & \bfseries cites \\
+\midrule 
+\endhead
+\cite{corda2022}, 2022, PMT &  (Power Measurement Toolkit) based on \acrshort{rapl} or LIKWID (CPU), \acrshort{nvml} (Nvidia GPU) rocm-smi (AMD GPU), for CPU, RAM, GPU, Xilinx FPGAs, and interface to \acrshort{epm}s; \textbf{available:} package, code \href{https://git.astron.nl/RD/pmt}{\ref*{link-corda2022}} & 1 \\
+\cite{montanana-aliaga2021}, 2021, Phantom & if not available: analytical estimation model -- based on computation load and hardware specifications, for application or whole system, accounting for CPU, RAM, I/O, GPU, and Network, FGPA, or Embedded Device with a power measurement kit; \textbf{available:} code & 6 \\
+\cite{becker2017}, 2017, Powerstat & based on the Power Supply Class of the Linux kernel (exposes information about the power supply to user space), for the whole computer; or \acrshort{rapl}, for the CPU; \textbf{available:} package, code \href{https://github.com/ColinIanKing/powerstat}{\ref*{link-becker2017}} & 5 \\
+\cite{treibig2010}, 2010, LikwidPM &  (LIKWID-powermeter) based on \acrshort{rapl}, for CPU and RAM; \textbf{available:} package, code \href{https://github.com/RRZE-HPC/likwid}{\ref*{link-treibig2010}} & 706 \\
+\bottomrule
+\end{longtable}

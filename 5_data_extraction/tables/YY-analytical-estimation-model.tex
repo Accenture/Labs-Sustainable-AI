@@ -1,0 +1,15 @@
+\paragraph{YY studies in the group ``analytical estimation model''} 
+ \label{tab:YY-analytical-estimation-model} 
+\begin{longtable}{|>{\raggedright\arraybackslash}p{2cm}|p{5.9cm}|>{\raggedright\arraybackslash}p{1.85cm}|>{\raggedright\arraybackslash}p{2cm}|>{\raggedright\arraybackslash}p{1.5cm}|p{0.7cm}|}
+\toprule
+\bfseries study & \bfseries detail & \bfseries target task & \bfseries constraints & \bfseries available & \bfseries cites \\
+\midrule 
+\endhead
+\cite{desislavov2023}, 2023, \acrshort{nu} & Model with \acrshort{flop} count as input, accounting for computations only, on CPU or GPU & any & no & no & 15 \\
+\cite{lemaire2022}, 2022, \acrshort{nu} & Model with \acrshort{nn} architecture as inputs, uses energy consumption of single operations drawn from the literature, and memory size, accounting for CPU or accelerator & Spiking and non-spiking \acrshort{nn} inference & no & code and models upon request & 11 \\
+\cite{lannelongue2021}, 2021, GA & (Green-Algorithms) Model with task duration and hardware utilization as inputs, accounting for CPU, RAM and GPU & any & no & code, API \href{https://github.com/GreenAlgorithms/green-algorithms-tool}{\ref*{link-lannelongue2021}} & 165 \\
+\cite{trebaol2020}, 2020, Cumulator & Model with computing task duration as input, accounting for CPU, RAM and GPU & any & Python & PyPI package, code \href{https://github.com/epfl-iglobalhealth/cumulator}{\ref*{link-trebaol2020}} & 5 \\
+\cite{lacoste2019}, 2019, MLCI & (ML-Co2-Impact) Model with task duration as input, accounting for one GPU & any & no & code, API \href{https://github.com/mlco2/impact}{\ref*{link-lacoste2019}} & 442 \\
+\cite{yang2017}, 2017, D\acrshort{nn}EET, for normalized energy consumed & (Deep-Neural-Network-Energy-Estimation-Tool) Model with shape of layers, and number of non-zero values and and bitwidths in filters and feature maps as inputs (uses pre-computed dataflows to calculate the number of bits accessed at each memory level), accounting for CPU or Deep \acrshort{nn} processor (= accelerator) and RAM & \acrshort{cnn} inference & no & API \href{https://energyestimation.mit.edu/}{\ref*{link-yang2017}} & 195 \\
+\bottomrule
+\end{longtable}

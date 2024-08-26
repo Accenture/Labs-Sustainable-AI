@@ -1,0 +1,19 @@
+\paragraph{NY studies in the group ``on-chip sensors''} 
+ \label{tab:NY-on-chip-sensors} 
+\begin{longtable}{|>{\raggedright\arraybackslash}p{0.85cm}|p{4cm}|p{6cm}|>{\raggedright\arraybackslash}p{3.75cm}|}
+\toprule
+\bfseries study & \bfseries detail & \bfseries ML task & \bfseries setup \\
+\midrule 
+\endhead
+\cite{caspart2023}, 2023 & internal power sensors of the HoreKa nodes with slurm plugin, \acrshort{nvml} & training and inference with \acrshort{cnn} and Long-Short Term Memory (time series) models & supercomputing system with Intel Xeon Platinum 8368 CPU, Nvidia A100-40 GPUs \\
+\cite{escribano2023}, 2023 & Code-Carbon & inference with \acrshort{nlp} model T5-small & application wrapped in Docker and deployed in cloud \\
+\cite{tekin2023}, 2023 & Intel-Power-Gadget & traning and inference with ML models (e.g., Logistic Regression, \acrshort{nn}) & edge, IoT, cloud with CPU \\
+\cite{naidu2021}, 2021 & Code-Carbon & training (with differential privacy) Bert, Image Classifier, and Reinforcement Learning model for cartpole control & unknown \\
+\cite{sun2021}, 2021 & \acrshort{rapl}, \acrshort{nvml} & training LeNet, GoogLeNet, AlexNet, CaffeNet, AlexNet-MNIST & CPU and CPU-GPU platforms (Intel Xeon X5-2650 v3, Nvidia Tesla K80) \\
+\cite{jurj2020}, 2020 & powerstat, tegrastats & tranining of VGG-19, InceptionV3, ResNet-50, MobileNetV2 for image classification, inference with MobileNetV2 & edge (Nvidia Jetson TX2), laptop (Nvidia GTX 1060) \\
+\cite{holly2020}, 2020 & based on measurements: sensors on the Nvidia Jetson Nano board & inference with MobileNet (V1, V2) and ResNet (18, 50) & Nvidia Jetson Nano \\
+\cite{yao2021}, 2020 & \acrshort{nvml} & inference with \acrshort{cnn}s: VGG-16, ResNet-50, Inception-v3 & high-performance GPUs: M40, P4, V100 \\
+\cite{strubell2019}, 2019 & \acrshort{rapl}, \acrshort{nvml} & training \acrshort{nlp} models (Transformer T2T, ELMo, BERT, \acrshort{nas}, GPT-2) & accelerators P100, V100, TPUv2, TPUv3 \\
+\cite{li2016a}, 2016 & \acrshort{rapl}, \acrshort{nvml} & training and inference with \acrshort{cnn}s: AlexNet v2, OverFeat, VGG-A, and GoogleNet (on ImageNet) & Xeon CPU, K20 GPU, Titan X GPU \\
+\bottomrule
+\end{longtable}

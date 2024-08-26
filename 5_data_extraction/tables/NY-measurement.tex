@@ -1,0 +1,17 @@
+\paragraph{NY studies in the group ``measurement''} 
+ \label{tab:NY-measurement} 
+\begin{longtable}{|>{\raggedright\arraybackslash}p{0.85cm}|p{4cm}|p{6cm}|>{\raggedright\arraybackslash}p{3.75cm}|}
+\toprule
+\bfseries study & \bfseries detail & \bfseries ML task & \bfseries setup \\
+\midrule 
+\endhead
+\cite{hauschild2023}, 2023 & \acrshort{epm} JT-TC66C & inference with \acrshort{cnn}s: MobileNetV2, \acrshort{nas}NetMobile, ResNet (50, 101), VGG (16, 19) & edge, server \\
+\cite{trihinas2022}, 2022 & \acrshort{epm} & inference with \acrshort{cnn} for object detection (on ImageNet) & edge  \\
+\cite{machado2022}, 2022 & \acrshort{epm}/sensors on the board & inference with YOLOv5 for object classification & edge (Nvidia Jetson Nano board) \\
+\cite{hampau2022}, 2022 & \acrshort{epm} Monsoon's High Voltage Power Monitor & inference with Image Classifyer (on MNIST, Emotion, CIFAR10) and YOLO & edge \\
+\cite{hesse2021}, 2021 & \acrshort{epm} Voltcraft Energy Logger EL4000 (also on-chip sensors if available) & training and inference with \acrshort{cnn}s, including inference with YOLOv3 & FGPA, Apple M1, classical CPU-GPU \\
+\cite{wang2019}, 2019 & \acrshort{epm} Monsoon Power Monitor (for mobile) & inference with YOLOv3 & edge server, smartphone \\
+\cite{mcintosh2019}, 2019 & \acrshort{epm} INA219 current sensor (within GreenMiner framework) & training and inference with various models (e.g., J48 Decision Tree, ZeroR) & Raspberry Pi for data-collection, Smartphone \\
+\cite{rungsuptaweekoon2017}, 2017 & \acrshort{epm} & inference with YOLO & edge (Nvidia Jetson TX1, TX2) \\
+\bottomrule
+\end{longtable}

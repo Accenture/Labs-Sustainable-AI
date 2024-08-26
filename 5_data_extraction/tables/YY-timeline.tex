@@ -1,0 +1,14 @@
+\begin{tikzpicture} 
+\draw[->, thick] (0,0) -- (15,0); 
+\foreach \x/\year in {0/2017, 2/2018, 4/2019, 6/2020, 8/2021, 10/2022, 12/2023} { 
+    \draw[shift={(\x,0)}, color=black] (0pt,2pt) -- (0pt,-2pt); 
+    \node[below] at (\x, 0) {\year}; 
+    } 
+\node[above right, align=left, rotate=45] at (0,0) {DNNEET \cite{yang2017}\\ NeuralP \cite{cai2017}}; 
+\node[above right, align=left, rotate=45] at (2,0) {SyNERGY \cite{rodrigues2018}}; 
+\node[above right, align=left, rotate=45] at (4,0) {CC \cite{lottick2019}\\ MLCI \cite{lacoste2019}}; 
+\node[above right, align=left, rotate=45] at (6,0) {CT \cite{anthony2020}, EIT \cite{henderson2020}\\ Cumulator \cite{trebaol2020}}; 
+\node[above right, align=left, rotate=45] at (8.3,0) {Accelergy \cite{wang2021}, EcoML \cite{igescu2021}\\ EnergyNN \cite{goel2021}, GA \cite{lannelongue2021}\\ NU \cite{metz2021}, Pommel \cite{montgomerie-corcoran2021}}; 
+\node[above right, align=left, rotate=45] at (10,0) {BT \cite{carastan-santos2022}, Eco2AI \cite{budennyy2022}\\ NU \cite{lemaire2022} \cite{metz2022b} \cite{metz2022a} \cite{lahmer2022}}; 
+\node[above right, align=left, rotate=45] at (12,0) {NU \cite{desislavov2023} \cite{qiu2023} \cite{dariol2023} \cite{ortega2023}\\ DLEE \cite{getzner2023}, ZeusM \cite{you2023}}; 
+\end{tikzpicture}

@@ -1,0 +1,206 @@
+allintitle:("machine learning") + (measure|measuring|estimate|estimation) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("machine learning") + (consumed|consumption|predict|prediction) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("machine learning") + (predicting|track|tracking|report|reports) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("machine learning") + (reporting|account|quantify|quantifying) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("machine learning") + (monitor|monitoring|evaluate|evaluating) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("deep learning") + (measure|measuring|estimate|estimation|consumed) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("deep learning") + (consumption|predict|prediction|predicting|track) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("deep learning") + (tracking|report|reports|reporting|account) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("deep learning") + (quantify|quantifying|monitor|monitoring|evaluate) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("deep learning") + (evaluating) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(computing) + (measure|measuring|estimate|estimation|consumed) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(computing) + (consumption|predict|prediction|predicting|track) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(computing) + (tracking|report|reports|reporting|account|quantify) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(computing) + (quantifying|monitor|monitoring|evaluate|evaluating) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("information and communications technology") + (measure|measuring) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("information and communications technology") + (estimate|estimation) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("information and communications technology") + (consumed|consumption) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("information and communications technology") + (predict|prediction) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("information and communications technology") + (predicting|track) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("information and communications technology") + (tracking|report) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("information and communications technology") + (reports|reporting) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("information and communications technology") + (account|quantify) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("information and communications technology") + (quantifying|monitor) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("information and communications technology") + (monitoring|evaluate) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("information and communications technology") + (evaluating) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(ICT) + (measure|measuring|estimate|estimation|consumed|consumption) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(ICT) + (predict|prediction|predicting|track|tracking|report|reports) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(ICT) + (reporting|account|quantify|quantifying|monitor|monitoring) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(ICT) + (evaluate|evaluating) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("artificial intelligence") + (measure|measuring|estimate|estimation) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("artificial intelligence") + (consumed|consumption|predict) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("artificial intelligence") + (prediction|predicting|track|tracking) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("artificial intelligence") + (report|reports|reporting|account) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("artificial intelligence") + (quantify|quantifying|monitor) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("artificial intelligence") + (monitoring|evaluate|evaluating) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(AI) + (measure|measuring|estimate|estimation|consumed|consumption) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(AI) + (predict|prediction|predicting|track|tracking|report|reports) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(AI) + (reporting|account|quantify|quantifying|monitor|monitoring) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(AI) + (evaluate|evaluating) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("natural language processing") + (measure|measuring|estimate) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("natural language processing") + (estimation|consumed|consumption) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("natural language processing") + (predict|prediction|predicting) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("natural language processing") + (track|tracking|report|reports) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("natural language processing") + (reporting|account|quantify) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("natural language processing") + (quantifying|monitor|monitoring) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("natural language processing") + (evaluate|evaluating) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(NLP) + (measure|measuring|estimate|estimation|consumed|consumption) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(NLP) + (predict|prediction|predicting|track|tracking|report|reports) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(NLP) + (reporting|account|quantify|quantifying|monitor|monitoring) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(NLP) + (evaluate|evaluating) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("neural network") + (measure|measuring|estimate|estimation|consumed) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("neural network") + (consumption|predict|prediction|predicting|track) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("neural network") + (tracking|report|reports|reporting|account) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("neural network") + (quantify|quantifying|monitor|monitoring) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("neural network") + (evaluate|evaluating) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("neural networks") + (measure|measuring|estimate|estimation|consumed) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("neural networks") + (consumption|predict|prediction|predicting) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("neural networks") + (track|tracking|report|reports|reporting) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("neural networks") + (account|quantify|quantifying|monitor) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("neural networks") + (monitoring|evaluate|evaluating) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(CNN) + (measure|measuring|estimate|estimation|consumed|consumption) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(CNN) + (predict|prediction|predicting|track|tracking|report|reports) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(CNN) + (reporting|account|quantify|quantifying|monitor|monitoring) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(CNN) + (evaluate|evaluating) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(DNN) + (measure|measuring|estimate|estimation|consumed|consumption) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(DNN) + (predict|prediction|predicting|track|tracking|report|reports) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(DNN) + (reporting|account|quantify|quantifying|monitor|monitoring) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(DNN) + (evaluate|evaluating) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(computation) + (measure|measuring|estimate|estimation|consumed) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(computation) + (consumption|predict|prediction|predicting|track) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(computation) + (tracking|report|reports|reporting|account|quantify) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(computation) + (quantifying|monitor|monitoring|evaluate|evaluating) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(computations) + (measure|measuring|estimate|estimation|consumed) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(computations) + (consumption|predict|prediction|predicting|track) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(computations) + (tracking|report|reports|reporting|account|quantify) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(computations) + (quantifying|monitor|monitoring|evaluate|evaluating) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(software) + (measure|measuring|estimate|estimation|consumed) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(software) + (consumption|predict|prediction|predicting|track) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(software) + (tracking|report|reports|reporting|account|quantify) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(software) + (quantifying|monitor|monitoring|evaluate|evaluating) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(process-level) + (measure|measuring|estimate|estimation|consumed) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(process-level) + (consumption|predict|prediction|predicting|track) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(process-level) + (tracking|report|reports|reporting|account|quantify) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(process-level) + (quantifying|monitor|monitoring|evaluate|evaluating) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(server) + (measure|measuring|estimate|estimation|consumed) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(server) + (consumption|predict|prediction|predicting|track|tracking) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(server) + (report|reports|reporting|account|quantify|quantifying) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:(server) + (monitor|monitoring|evaluate|evaluating) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("virtual machine") + (measure|measuring|estimate|estimation|consumed) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("virtual machine") + (consumption|predict|prediction|predicting) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("virtual machine") + (track|tracking|report|reports|reporting) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("virtual machine") + (account|quantify|quantifying|monitor) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("virtual machine") + (monitoring|evaluate|evaluating) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("federated learning") + (measure|measuring|estimate|estimation) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("federated learning") + (consumed|consumption|predict|prediction) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("federated learning") + (predicting|track|tracking|report|reports) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("federated learning") + (reporting|account|quantify|quantifying) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("federated learning") + (monitor|monitoring|evaluate|evaluating) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("distributed learning") + (measure|measuring|estimate|estimation) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("distributed learning") + (consumed|consumption|predict|prediction) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("distributed learning") + (predicting|track|tracking|report|reports) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("distributed learning") + (reporting|account|quantify|quantifying) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+
+allintitle:("distributed learning") + (monitor|monitoring|evaluate|evaluating) + (energy|power|"environmental impact"|"carbon footprint"|"carbon emissions"|"carbon impact") -wind -building -buildings -vehicles -homes -ships -solar -photovoltaic -vehicle
+

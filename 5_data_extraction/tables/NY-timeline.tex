@@ -1,0 +1,14 @@
+\begin{tikzpicture} 
+\draw[->, thick] (0,0) -- (15,0); 
+\foreach \x/\year in {0/2016, 2/2017, 4/2019, 6/2020, 8/2021, 10/2022, 12/2023} { 
+    \draw[shift={(\x,0)}, color=black] (0pt,2pt) -- (0pt,-2pt); 
+    \node[below] at (\x, 0) {\year}; 
+    } 
+\node[above right, align=left, rotate=45] at (0,0) {\cite{li2016a}}; 
+\node[above right, align=left, rotate=45] at (2,0) {\cite{rungsuptaweekoon2017}}; 
+\node[above right, align=left, rotate=45] at (4,0) {\cite{wang2019}\\ \cite{strubell2019}, \cite{mcintosh2019}}; 
+\node[above right, align=left, rotate=45] at (6,0) {\cite{rodrigues2020}, \cite{jurj2020}\\ \cite{holly2020}, \cite{yao2021}}; 
+\node[above right, align=left, rotate=45] at (8.3,0) {\cite{arnautovic2021}, \cite{guo2021}\\ \cite{naidu2021}, \cite{desislavov2021}\\ \cite{sun2021}, \cite{hesse2021}, \cite{canilang2021}}; 
+\node[above right, align=left, rotate=45] at (10,0) {\cite{trihinas2022}\\ \cite{machado2022}, \cite{hampau2022}}; 
+\node[above right, align=left, rotate=45] at (12.3,0) {\cite{islam2023}, \cite{caspart2023}\\ \cite{escribano2023}, \cite{hauschild2023}\\ \cite{tekin2023}, \cite{wu2023}}; 
+\end{tikzpicture}

@@ -1,0 +1,11 @@
+"""These python commands permit to obtain a list of all identified 'exclduing words'."""
+
+unique_words_list = list(set(words))
+
+# Sort the list alphabetically
+sorted_words = sorted(unique_words_list)
+
+# Create a string with words separated by commas
+comma_separated_words = ", ".join(sorted_words)
+
+print(comma_separated_words)

@@ -1,0 +1,34 @@
+\begin{tikzpicture} 
+\draw[dashed, thick] (-1.5,0) -- (1,0); 
+\draw[thick] (1,0) -- (13.5,0); 
+\draw[dashed, thick] (13.5,0) -- (14,0); 
+\foreach \x/\year in {-1/2002, 0.75/2008, 2.5/2009, 4.25/2010, 6.0/2011, 7.75/2012, 9.5/2013, 11.25/2014, 13.0/2015} { 
+    \draw[shift={(\x,0)}, color=black] (0pt,2pt) -- (0pt,-2pt); 
+    \node[below] at (\x, 0) {\year}; 
+    } 
+\node[above right, align=left, rotate=45] at (-1,0) {SoftWatt \cite{gurumurthi2002}}; 
+\node[above right, align=left, rotate=45] at (0.75,0) {NU \cite{lewis2008}}; 
+\node[above right, align=left, rotate=45] at (2.5,0) {NU \cite{singh2009} \cite{ma2009} \cite{spellmann2009}}; 
+\node[above right, align=left, rotate=45] at (4.25,0) {LikwidPM \cite{treibig2010}\\ NU \cite{zamani2010}}; 
+\node[above right, align=left, rotate=45] at (6.0,0) {NU \cite{suda2011} \cite{basmadjian2011} \cite{piga2011} \cite{matsumoto2011} \cite{chen2011}}; 
+\node[above right, align=left, rotate=45] at (7.75,0) {ECAT \cite{chen2012}\\ eprof \cite{schubert2012}}; 
+\node[above right, align=left, rotate=45] at (9.5,0) {NU \cite{enam2013} \cite{peng2013} \cite{singh2013}\\ PowerAPI \cite{bourdon2013}, SEFLab \cite{ferreira2013}}; 
+\node[above right, align=left, rotate=45] at (11.25,0) {Jalen \cite{noureddine2014a}, BitWatts \cite{colmant2014}\\ NU \cite{storlie2014} \cite{kim2014}, JalenUnit \cite{noureddine2014}}; 
+\node[above right, align=left, rotate=45] at (13.0,0) {NU \cite{gutierrez2015a} \cite{foo2015} \cite{harton2015} \cite{gutierrez2015b}\\ E-Surgeon \cite{noureddine2015}}; 
+
+
+\draw[dashed, thick] (-1.5,-4.1) -- (0,-4.1); 
+\draw[->, thick] (0,-4.1) -- (14,-4.1); 
+\foreach \x/\year in {0/2016, 1.75/2017, 3.5/2018, 5.25/2019, 7.0/2020, 8.75/2021, 10.5/2022, 12.25/2023} { 
+    \draw[shift={(\x,-4.1)}, color=black] (0pt,2pt) -- (0pt,-2pt); 
+    \node[below] at (\x, -4.1) {\year}; 
+    } 
+\node[above right, align=left, rotate=45] at (0,-4.1) {TEEC \cite{acar2016c} \cite{acar2016b} \cite{acar2016a}\\ NU \cite{li2016b} \cite{hankel2016} \cite{veni2016} \cite{park2016}}; 
+\node[above right, align=left, rotate=45] at (1.75,-4.1) {NU \cite{liu2017} \cite{alzamil2017} \cite{jiang2017}\\ Powerstat \cite{becker2017}}; 
+\node[above right, align=left, rotate=45] at (3.5,-4.1) {TVAKSHAS \cite{naren2018}\\ NU \cite{fu2018} \cite{dutta2018}}; 
+\node[above right, align=left, rotate=45] at (5.25,-4.1) {}; 
+\node[above right, align=left, rotate=45] at (7.0,-4.1) {NU \cite{lin2020} \cite{kloh2020} \cite{karantoumanis2020}}; 
+\node[above right, align=left, rotate=45] at (8.75,-4.1) {NU \cite{shahid2021b} \cite{shahid2021a} \cite{aboubakar2021}\\ Phantom \cite{montanana-aliaga2021}}; 
+\node[above right, align=left, rotate=45] at (11.15,-4.1) {PMT \cite{corda2022}\\ MuMMI \cite{wu2022}, DeepPM \cite{shim2022}\\ NU \cite{morlans2022}, PJ,JJX \cite{noureddine2022}}; 
+\node[above right, align=left, rotate=45] at (12.25,-4.1) {NU \cite{alavani2023}, ESAVE \cite{pathania2023}}; 
+\end{tikzpicture}

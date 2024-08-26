@@ -1,0 +1,11 @@
+\paragraph{YY studies in the group ``analytical and data-based estimation model''} 
+ \label{tab:YY-analytical-and-data-based-estimation-model} 
+\begin{longtable}{|>{\raggedright\arraybackslash}p{2cm}|p{5.9cm}|>{\raggedright\arraybackslash}p{1.85cm}|>{\raggedright\arraybackslash}p{2cm}|>{\raggedright\arraybackslash}p{1.5cm}|p{0.7cm}|}
+\toprule
+\bfseries study & \bfseries detail & \bfseries target task & \bfseries constraints & \bfseries available & \bfseries cites \\
+\midrule 
+\endhead
+\cite{getzner2023}, 2023, DLEE & (dl-energy-estimator) Linear and polynomial regression models with \acrshort{nn} architecture and \acrshort{mac} count as inputs (layer-wise consumption), accounting for CPU and RAM & Deep \acrshort{nn} inference & no & code (data collection, training), model \href{https://github.com/JohannesGetzner/dl-energy-estimator}{\ref*{link-getzner2023}} & 1 \\
+\cite{lahmer2022}, 2022, \acrshort{nu} & Model with \acrshort{mac} count and platform-specific parameters (parameters obtained empirically from data) as inputs, accounting for CPU and RAM (unclear if GPU power is accounted for) & Deep \acrshort{nn} inference (fully connected, convolutional) & Nvidia Jetson edge computer & no & 7 \\
+\bottomrule
+\end{longtable}
