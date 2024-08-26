@@ -7,20 +7,8 @@ resnet_classification_pytorch_vision/calculator_output/
 /res_meas-time.json
 /TAPO-VAR.json
 /UTIL-VAR.json
-/logs_and_results/2023*
-/logs_and_results/*/*_logs_and_results/*/*_model/*
-/logs_and_results/*/*_logs_and_results/*/term_logs/*
-/logs_and_results/2_exp_resnet/batch-size-32/*_logs_and_results/*/term_logs/*
-/logs_and_results/2_exp_resnet/batch-size-32/*_logs_and_results/*/*_model/*
 /logs_and_results/current_logs_and_results_folder.txt
 /TAPO-credentials.json
-
-
-# logs_and_results/2_exp_resnet/batch-size-32/20230526-122217_logs_and_results/1/image_net_model/
-# logs_and_results/2_exp_resnet/batch-size-32/20230526-122217_logs_and_results/1/output_eco2ai.csv
-# logs_and_results/2_exp_resnet/batch-size-32/20230526-122217_logs_and_results/1/term_logs/
-# logs_and_results/2_exp_resnet/batch-size-32/20230526-122217_logs_and_results/2/image_net_model/
-# logs_and_results/2_exp_resnet/batch-size-32/20230526-122217_logs_and_results/2/term_logs/
 
 # --- Ignore logs ---- #
 # *.log
