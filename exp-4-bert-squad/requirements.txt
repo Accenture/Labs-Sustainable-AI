@@ -1,0 +1,6 @@
+tensorflow
+tf_slim
+carbontracker
+codecarbon
+eco2ai
+experiment_impact_tracker

@@ -1,0 +1,2808 @@
+{
+    "output": "aggregate_data.data",
+    "changedPropIds": [
+      "runTime_hour_input.value"
+    ],
+    "inputs": [
+      {
+        "id": "versioned_data",
+        "property": "data",
+        "value": {
+          "version": "v2.2",
+          "cores_dict": {
+            "CPU": {
+              "A8-7680": 11.3,
+              "A9-9425 SoC": 7.5,
+              "AMD 7552": 4.2,
+              "AMD EPYC 7251": 15,
+              "AMD EPYC 7343": 11.9,
+              "AMD EPYC 7513": 6.3,
+              "Any": 12,
+              "Athlon 3000G": 17.5,
+              "Core 2 Quad Q6600": 23.8,
+              "Core i3-10100": 16.3,
+              "Core i3-10300": 15.5,
+              "Core i3-10320": 22.8,
+              "Core i3-10350K": 22.8,
+              "Core i3-9100": 16.3,
+              "Core i3-9100F": 16.3,
+              "Core i5-10400": 10.8,
+              "Core i5-10400F": 10.8,
+              "Core i5-10500": 10.8,
+              "Core i5-10600": 10.8,
+              "Core i5-10600K": 15.8,
+              "Core i5-3570K": 19.3,
+              "Core i5-4460": 21,
+              "Core i5-9400": 10.8,
+              "Core i5-9400F": 10.8,
+              "Core i5-9600KF": 15.8,
+              "Core i7-10700": 8.1,
+              "Core i7-10700K": 15.6,
+              "Core i7-4930K": 21.7,
+              "Core i7-6700K": 23.8,
+              "Core i7-8700K": 15.8,
+              "Core i7-9700F": 8.1,
+              "Core i7-9700K": 11.9,
+              "Core i9-10900K": 12.5,
+              "Core i9-10900KF": 10.5,
+              "Core i9-10900XE": 16.5,
+              "Core i9-10920XE": 13.8,
+              "Core i9-12900K": 7.8,
+              "Core i9-9900K": 11.9,
+              "FX-6300": 15.8,
+              "FX-8350": 15.6,
+              "Ryzen 3 2200G": 16.3,
+              "Ryzen 3 3200G": 16.3,
+              "Ryzen 3 3200U": 7.5,
+              "Ryzen 5 1600": 10.8,
+              "Ryzen 5 2600": 10.8,
+              "Ryzen 5 3400G": 16.3,
+              "Ryzen 5 3500U": 3.8,
+              "Ryzen 5 3600": 10.8,
+              "Ryzen 5 3600X": 15.8,
+              "Ryzen 7 2700X": 13.1,
+              "Ryzen 7 3700X": 8.1,
+              "Ryzen 7 3800X": 13.1,
+              "Ryzen 9 3900X": 10.4,
+              "Ryzen 9 3950X": 6.6,
+              "Ryzen Threadripper 2990WX": 7.8,
+              "Ryzen Threadripper 3990X": 4.4,
+              "Xeon E5-2660 v3": 10.5,
+              "Xeon E5-2665": 14.4,
+              "Xeon E5-2670": 14.4,
+              "Xeon E5-2670 v2": 11.5,
+              "Xeon E5-2680 v3": 10,
+              "Xeon E5-2683 v4": 7.5,
+              "Xeon E5-2690 v2": 13,
+              "Xeon E5-2690 v3": 11.3,
+              "Xeon E5-2695 v4": 6.7,
+              "Xeon E5-2697 v4": 8.1,
+              "Xeon E5-2699 v3": 8.1,
+              "Xeon E5-2699 v4": 6.6,
+              "Xeon E5-4610 v4": 10.5,
+              "Xeon E5-4620": 11.9,
+              "Xeon E5-4650L": 14.4,
+              "Xeon E7-8867 v3": 10.3,
+              "Xeon E7-8880 v4": 6.8,
+              "Xeon Gold 6142": 9.4,
+              "Xeon Gold 6148": 7.5,
+              "Xeon Gold 6248": 7.5,
+              "Xeon Gold 6252": 6.3,
+              "Xeon L5640 ": 10,
+              "Xeon Phi 5110P": 3.8,
+              "Xeon Platinum 9282": 7.1,
+              "Xeon X3430": 23.8,
+              "Xeon X5660": 15.8
+            },
+            "GPU": {
+              "NVIDIA Jetson AGX Xavier": 30,
+              "NVIDIA Tesla T4": 70,
+              "AMD RX480": 150,
+              "NVIDIA GTX 1080": 180,
+              "TPU v3": 200,
+              "Any": 200,
+              "NVIDIA RTX 2080": 215,
+              "NVIDIA RTX 2080 Ti": 250,
+              "NVIDIA GTX 1080 Ti": 250,
+              "NVIDIA Titan V": 250,
+              "TPU v2": 250,
+              "NVIDIA GTX TITAN X": 250,
+              "NVIDIA TITAN X Pascal": 250,
+              "NVIDIA Tesla P100 PCIe": 250,
+              "NVIDIA Tesla V100": 300,
+              "TPU v3 pod": 288000,
+              "NVIDIA A100 PCIe": 250,
+              "NVIDIA Tesla P4": 75,
+              "NVIDIA Tesla K80": 300
+            }
+          },
+          "pueDefault_dict": {
+            "Unknown": 1.67,
+            "gcp": 1.11,
+            "aws": 1.2,
+            "azure": 1.125
+          },
+          "CI_dict_byLoc": {
+            "WORLD": {
+              "continentName": "World",
+              "countryName": "Any",
+              "regionName": "Any",
+              "carbonIntensity": 475
+            },
+            "TW": {
+              "continentName": "Asia",
+              "countryName": "China",
+              "regionName": "Taiwan",
+              "carbonIntensity": 509
+            },
+            "IL": {
+              "continentName": "Asia",
+              "countryName": "Israel",
+              "regionName": "Any",
+              "carbonIntensity": 558
+            },
+            "ZA": {
+              "continentName": "Africa",
+              "countryName": "South Africa",
+              "regionName": "Any",
+              "carbonIntensity": 900.6
+            },
+            "CN": {
+              "continentName": "Asia",
+              "countryName": "China",
+              "regionName": "Any",
+              "carbonIntensity": 537.4
+            },
+            "CN-HK": {
+              "continentName": "Asia",
+              "countryName": "China",
+              "regionName": "Hong Kong (HK Electricity Company)",
+              "carbonIntensity": 710
+            },
+            "CN-HK2": {
+              "continentName": "Asia",
+              "countryName": "China",
+              "regionName": "Hong Kong (CLP Group)",
+              "carbonIntensity": 650
+            },
+            "IN": {
+              "continentName": "Asia",
+              "countryName": "India",
+              "regionName": "Any",
+              "carbonIntensity": 708.2
+            },
+            "ID": {
+              "continentName": "Asia",
+              "countryName": "Indonesia",
+              "regionName": "Any",
+              "carbonIntensity": 717.7
+            },
+            "JP": {
+              "continentName": "Asia",
+              "countryName": "Japan",
+              "regionName": "Any",
+              "carbonIntensity": 465.8
+            },
+            "KR": {
+              "continentName": "Asia",
+              "countryName": "Korea",
+              "regionName": "Any",
+              "carbonIntensity": 415.6
+            },
+            "SA": {
+              "continentName": "Asia",
+              "countryName": "Saudi Arabia",
+              "regionName": "Any",
+              "carbonIntensity": 505.9
+            },
+            "SG": {
+              "continentName": "Asia",
+              "countryName": "Singapore",
+              "regionName": "Any",
+              "carbonIntensity": 408
+            },
+            "TH": {
+              "continentName": "Asia",
+              "countryName": "Thailand",
+              "regionName": "Any",
+              "carbonIntensity": 481
+            },
+            "TR": {
+              "continentName": "Asia",
+              "countryName": "Turkey",
+              "regionName": "Any",
+              "carbonIntensity": 375
+            },
+            "AE": {
+              "continentName": "Asia",
+              "countryName": "United Arab Emirates",
+              "regionName": "Any",
+              "carbonIntensity": 417.89
+            },
+            "AT": {
+              "continentName": "Europe",
+              "countryName": "Austria",
+              "regionName": "Any",
+              "carbonIntensity": 111.18
+            },
+            "BE": {
+              "continentName": "Europe",
+              "countryName": "Belgium",
+              "regionName": "Any",
+              "carbonIntensity": 161.89
+            },
+            "BG": {
+              "continentName": "Europe",
+              "countryName": "Bulgaria",
+              "regionName": "Any",
+              "carbonIntensity": 372.12
+            },
+            "HR": {
+              "continentName": "Europe",
+              "countryName": "Croatia",
+              "regionName": "Any",
+              "carbonIntensity": 226.96
+            },
+            "CY": {
+              "continentName": "Europe",
+              "countryName": "Cyprus",
+              "regionName": "Any",
+              "carbonIntensity": 642.9
+            },
+            "CZ": {
+              "continentName": "Europe",
+              "countryName": "Czech Republic",
+              "regionName": "Any",
+              "carbonIntensity": 495.49
+            },
+            "DK": {
+              "continentName": "Europe",
+              "countryName": "Denmark",
+              "regionName": "Any",
+              "carbonIntensity": 142.52
+            },
+            "EE": {
+              "continentName": "Europe",
+              "countryName": "Estonia",
+              "regionName": "Any",
+              "carbonIntensity": 598.69
+            },
+            "FI": {
+              "continentName": "Europe",
+              "countryName": "Finland",
+              "regionName": "Any",
+              "carbonIntensity": 95.32
+            },
+            "FR": {
+              "continentName": "Europe",
+              "countryName": "France",
+              "regionName": "Any",
+              "carbonIntensity": 51.28
+            },
+            "DE": {
+              "continentName": "Europe",
+              "countryName": "Germany",
+              "regionName": "Any",
+              "carbonIntensity": 338.66
+            },
+            "GR": {
+              "continentName": "Europe",
+              "countryName": "Greece",
+              "regionName": "Any",
+              "carbonIntensity": 410.01
+            },
+            "HU": {
+              "continentName": "Europe",
+              "countryName": "Hungary",
+              "regionName": "Any",
+              "carbonIntensity": 243.75
+            },
+            "IS": {
+              "continentName": "Europe",
+              "countryName": "Iceland",
+              "regionName": "Any",
+              "carbonIntensity": 0.13
+            },
+            "IE": {
+              "continentName": "Europe",
+              "countryName": "Ireland",
+              "regionName": "Any",
+              "carbonIntensity": 335.99
+            },
+            "IT": {
+              "continentName": "Europe",
+              "countryName": "Italy",
+              "regionName": "Any",
+              "carbonIntensity": 323.84
+            },
+            "LV": {
+              "continentName": "Europe",
+              "countryName": "Latvia",
+              "regionName": "Any",
+              "carbonIntensity": 215.67
+            },
+            "LT": {
+              "continentName": "Europe",
+              "countryName": "Lithuania",
+              "regionName": "Any",
+              "carbonIntensity": 253.56
+            },
+            "LU": {
+              "continentName": "Europe",
+              "countryName": "Luxembourg",
+              "regionName": "Any",
+              "carbonIntensity": 101.36
+            },
+            "MT": {
+              "continentName": "Europe",
+              "countryName": "Malta",
+              "regionName": "Any",
+              "carbonIntensity": 390.62
+            },
+            "NL": {
+              "continentName": "Europe",
+              "countryName": "Netherlands",
+              "regionName": "Any",
+              "carbonIntensity": 374.34
+            },
+            "NO": {
+              "continentName": "Europe",
+              "countryName": "Norway",
+              "regionName": "Any",
+              "carbonIntensity": 7.62
+            },
+            "PL": {
+              "continentName": "Europe",
+              "countryName": "Poland",
+              "regionName": "Any",
+              "carbonIntensity": 759.62
+            },
+            "PT": {
+              "continentName": "Europe",
+              "countryName": "Portugal",
+              "regionName": "Any",
+              "carbonIntensity": 201.55
+            },
+            "RO": {
+              "continentName": "Europe",
+              "countryName": "Romania",
+              "regionName": "Any",
+              "carbonIntensity": 261.84
+            },
+            "RU": {
+              "continentName": "Europe",
+              "countryName": "Russian Federation",
+              "regionName": "Any",
+              "carbonIntensity": 310.2
+            },
+            "RS": {
+              "continentName": "Europe",
+              "countryName": "Serbia",
+              "regionName": "Any",
+              "carbonIntensity": 776.69
+            },
+            "SK": {
+              "continentName": "Europe",
+              "countryName": "Slovakia",
+              "regionName": "Any",
+              "carbonIntensity": 155.48
+            },
+            "SI": {
+              "continentName": "Europe",
+              "countryName": "Slovenia",
+              "regionName": "Any",
+              "carbonIntensity": 224.05
+            },
+            "ES": {
+              "continentName": "Europe",
+              "countryName": "Spain",
+              "regionName": "Any",
+              "carbonIntensity": 171.03
+            },
+            "SE": {
+              "continentName": "Europe",
+              "countryName": "Sweden",
+              "regionName": "Any",
+              "carbonIntensity": 5.67
+            },
+            "CH": {
+              "continentName": "Europe",
+              "countryName": "Switzerland",
+              "regionName": "Any",
+              "carbonIntensity": 11.52
+            },
+            "GB": {
+              "continentName": "Europe",
+              "countryName": "United Kingdom",
+              "regionName": "Any",
+              "carbonIntensity": 231.12
+            },
+            "CA": {
+              "continentName": "North America",
+              "countryName": "Canada",
+              "regionName": "Any",
+              "carbonIntensity": 120
+            },
+            "CA-AB": {
+              "continentName": "North America",
+              "countryName": "Canada",
+              "regionName": "Alberta",
+              "carbonIntensity": 670
+            },
+            "CA-BC": {
+              "continentName": "North America",
+              "countryName": "Canada",
+              "regionName": "British Columbia",
+              "carbonIntensity": 19.7
+            },
+            "CA-MT": {
+              "continentName": "North America",
+              "countryName": "Canada",
+              "regionName": "Manitoba",
+              "carbonIntensity": 1.3
+            },
+            "CA-NB": {
+              "continentName": "North America",
+              "countryName": "Canada",
+              "regionName": "New Brunswick",
+              "carbonIntensity": 270
+            },
+            "CA-NL": {
+              "continentName": "North America",
+              "countryName": "Canada",
+              "regionName": "Newfoundland and Labrador",
+              "carbonIntensity": 29
+            },
+            "CA-NS": {
+              "continentName": "North America",
+              "countryName": "Canada",
+              "regionName": "Nova Scotia",
+              "carbonIntensity": 810
+            },
+            "CA-NT": {
+              "continentName": "North America",
+              "countryName": "Canada",
+              "regionName": "Northwest Territories",
+              "carbonIntensity": 200
+            },
+            "CA-NU": {
+              "continentName": "North America",
+              "countryName": "Canada",
+              "regionName": "Nunavut",
+              "carbonIntensity": 900
+            },
+            "CA-ON": {
+              "continentName": "North America",
+              "countryName": "Canada",
+              "regionName": "Ontario",
+              "carbonIntensity": 30
+            },
+            "CA-PE": {
+              "continentName": "North America",
+              "countryName": "Canada",
+              "regionName": "Prince Edward Island",
+              "carbonIntensity": 2
+            },
+            "CA-QC": {
+              "continentName": "North America",
+              "countryName": "Canada",
+              "regionName": "Quebec",
+              "carbonIntensity": 1.5
+            },
+            "CA-SK": {
+              "continentName": "North America",
+              "countryName": "Canada",
+              "regionName": "Saskatchewan",
+              "carbonIntensity": 710
+            },
+            "CA-YT": {
+              "continentName": "North America",
+              "countryName": "Canada",
+              "regionName": "Yukon Territory",
+              "carbonIntensity": 111
+            },
+            "MX": {
+              "continentName": "North America",
+              "countryName": "Mexico",
+              "regionName": "Any",
+              "carbonIntensity": 431.4
+            },
+            "US": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Any",
+              "carbonIntensity": 423.94
+            },
+            "US-AK": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Alaska",
+              "carbonIntensity": 462.33
+            },
+            "US-AL": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Alabama",
+              "carbonIntensity": 344.37
+            },
+            "US-AR": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Arkansas",
+              "carbonIntensity": 454.4
+            },
+            "US-AZ": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Arizona",
+              "carbonIntensity": 351.99
+            },
+            "US-CA": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "California",
+              "carbonIntensity": 216.43
+            },
+            "US-CO": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Colorado",
+              "carbonIntensity": 582.34
+            },
+            "US-CT": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Connecticut",
+              "carbonIntensity": 253
+            },
+            "US-DC": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Washington DC",
+              "carbonIntensity": 382.68
+            },
+            "US-DE": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Delaware",
+              "carbonIntensity": 360.68
+            },
+            "US-FL": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Florida",
+              "carbonIntensity": 402.2
+            },
+            "US-GA": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Georgia",
+              "carbonIntensity": 345.58
+            },
+            "US-HI": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Hawaii",
+              "carbonIntensity": 731.21
+            },
+            "US-IA": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Iowa",
+              "carbonIntensity": 293.85
+            },
+            "US-ID": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Idaho",
+              "carbonIntensity": 101.89
+            },
+            "US-IL": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Illinois",
+              "carbonIntensity": 265.8
+            },
+            "US-IN": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Indiana",
+              "carbonIntensity": 740.02
+            },
+            "US-KS": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Kansas",
+              "carbonIntensity": 384.08
+            },
+            "US-KY": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Kentucky",
+              "carbonIntensity": 804.75
+            },
+            "US-LA": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Louisiana",
+              "carbonIntensity": 363.82
+            },
+            "US-MA": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Massachusetts",
+              "carbonIntensity": 420.32
+            },
+            "US-MD": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Maryland",
+              "carbonIntensity": 308.21
+            },
+            "US-ME": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Maine",
+              "carbonIntensity": 109
+            },
+            "US-MI": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Michigan",
+              "carbonIntensity": 448.08
+            },
+            "US-MN": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Minnesota",
+              "carbonIntensity": 367.93
+            },
+            "US-MO": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Missouri",
+              "carbonIntensity": 773
+            },
+            "US-MS": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Mississip",
+              "carbonIntensity": 427.07
+            },
+            "US-MT": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Montana",
+              "carbonIntensity": 435.87
+            },
+            "US-NC": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "North Carolina",
+              "carbonIntensity": 309.73
+            },
+            "US-ND": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "North Dakota",
+              "carbonIntensity": 663.05
+            },
+            "US-NE": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Nebraska",
+              "carbonIntensity": 573.51
+            },
+            "US-NH": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "New Hampshire",
+              "carbonIntensity": 118.44
+            },
+            "US-NJ": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "New Jersey",
+              "carbonIntensity": 235.1
+            },
+            "US-NM": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "New Mexico",
+              "carbonIntensity": 601.77
+            },
+            "US-NV": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Nevada",
+              "carbonIntensity": 342.25
+            },
+            "US-NY": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "New York",
+              "carbonIntensity": 199.01
+            },
+            "US-OH": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Ohio",
+              "carbonIntensity": 598.58
+            },
+            "US-OK": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Oklahoma",
+              "carbonIntensity": 338.44
+            },
+            "US-OR": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Oregon",
+              "carbonIntensity": 163.15
+            },
+            "US-PA": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Pennsylvania",
+              "carbonIntensity": 333.19
+            },
+            "US-RI": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Rhode Island",
+              "carbonIntensity": 395.27
+            },
+            "US-SC": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "South Carolina",
+              "carbonIntensity": 245.48
+            },
+            "US-SD": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "South Dakota",
+              "carbonIntensity": 162.69
+            },
+            "US-TN": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Tennessee",
+              "carbonIntensity": 272.89
+            },
+            "US-TX": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Texas",
+              "carbonIntensity": 409.16
+            },
+            "US-UT": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Utah",
+              "carbonIntensity": 747.82
+            },
+            "US-VA": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Virginia",
+              "carbonIntensity": 308
+            },
+            "US-VT": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Vermont",
+              "carbonIntensity": 14.45
+            },
+            "US-WA": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Washington",
+              "carbonIntensity": 101.84
+            },
+            "US-WI": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Wisconsin",
+              "carbonIntensity": 569.39
+            },
+            "US-WV": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "West Virginia",
+              "carbonIntensity": 919.34
+            },
+            "US-WY": {
+              "continentName": "North America",
+              "countryName": "United States of America",
+              "regionName": "Wyoming",
+              "carbonIntensity": 950.5
+            },
+            "AU": {
+              "continentName": "Oceania",
+              "countryName": "Australia",
+              "regionName": "Any",
+              "carbonIntensity": 840
+            },
+            "AU-ACT": {
+              "continentName": "Oceania",
+              "countryName": "Australia",
+              "regionName": "Australian Capital Territory",
+              "carbonIntensity": 870
+            },
+            "AU-NSW": {
+              "continentName": "Oceania",
+              "countryName": "Australia",
+              "regionName": "New South Wales",
+              "carbonIntensity": 870
+            },
+            "AU-NT": {
+              "continentName": "Oceania",
+              "countryName": "Australia",
+              "regionName": "Northern Territory",
+              "carbonIntensity": 620
+            },
+            "AU-NT2": {
+              "continentName": "Oceania",
+              "countryName": "Australia",
+              "regionName": "Northern Territory (Darwin Katherine Interconnected System)",
+              "carbonIntensity": 540
+            },
+            "AU-QLD": {
+              "continentName": "Oceania",
+              "countryName": "Australia",
+              "regionName": "Queensland",
+              "carbonIntensity": 920
+            },
+            "AU-SA": {
+              "continentName": "Oceania",
+              "countryName": "Australia",
+              "regionName": "South Australia",
+              "carbonIntensity": 420
+            },
+            "AU-TAS": {
+              "continentName": "Oceania",
+              "countryName": "Australia",
+              "regionName": "Tasmania",
+              "carbonIntensity": 180
+            },
+            "AU-VIC": {
+              "continentName": "Oceania",
+              "countryName": "Australia",
+              "regionName": "Victoria",
+              "carbonIntensity": 1060
+            },
+            "AU-WA1": {
+              "continentName": "Oceania",
+              "countryName": "Australia",
+              "regionName": "Western Australia (North Western Interconnected System)",
+              "carbonIntensity": 580
+            },
+            "AU-WA2": {
+              "continentName": "Oceania",
+              "countryName": "Australia",
+              "regionName": "Western Australia (South West Interconnected System)",
+              "carbonIntensity": 700
+            },
+            "NZ": {
+              "continentName": "Oceania",
+              "countryName": "New Zealand",
+              "regionName": "Any",
+              "carbonIntensity": 110.1
+            },
+            "AR": {
+              "continentName": "South America",
+              "countryName": "Argentina",
+              "regionName": "Any",
+              "carbonIntensity": 307
+            },
+            "BR": {
+              "continentName": "South America",
+              "countryName": "Brazil",
+              "regionName": "Any",
+              "carbonIntensity": 61.7
+            },
+            "UY": {
+              "continentName": "South America",
+              "countryName": "Uruguay",
+              "regionName": "Any",
+              "carbonIntensity": 129
+            }
+          },
+          "CI_dict_byName": {
+            "South America": {
+              "Argentina": {
+                "Any": {
+                  "location": "AR",
+                  "carbonIntensity": 307
+                }
+              },
+              "Brazil": {
+                "Any": {
+                  "location": "BR",
+                  "carbonIntensity": 61.7
+                }
+              },
+              "Uruguay": {
+                "Any": {
+                  "location": "UY",
+                  "carbonIntensity": 129
+                }
+              }
+            },
+            "Oceania": {
+              "Australia": {
+                "Northern Territory (Darwin Katherine Interconnected System)": {
+                  "location": "AU-NT2",
+                  "carbonIntensity": 540
+                },
+                "Western Australia (North Western Interconnected System)": {
+                  "location": "AU-WA1",
+                  "carbonIntensity": 580
+                },
+                "Tasmania": {
+                  "location": "AU-TAS",
+                  "carbonIntensity": 180
+                },
+                "South Australia": {
+                  "location": "AU-SA",
+                  "carbonIntensity": 420
+                },
+                "Queensland": {
+                  "location": "AU-QLD",
+                  "carbonIntensity": 920
+                },
+                "Western Australia (South West Interconnected System)": {
+                  "location": "AU-WA2",
+                  "carbonIntensity": 700
+                },
+                "Any": {
+                  "location": "AU",
+                  "carbonIntensity": 840
+                },
+                "Australian Capital Territory": {
+                  "location": "AU-ACT",
+                  "carbonIntensity": 870
+                },
+                "Northern Territory": {
+                  "location": "AU-NT",
+                  "carbonIntensity": 620
+                },
+                "Victoria": {
+                  "location": "AU-VIC",
+                  "carbonIntensity": 1060
+                },
+                "New South Wales": {
+                  "location": "AU-NSW",
+                  "carbonIntensity": 870
+                }
+              },
+              "New Zealand": {
+                "Any": {
+                  "location": "NZ",
+                  "carbonIntensity": 110.1
+                }
+              }
+            },
+            "Europe": {
+              "Greece": {
+                "Any": {
+                  "location": "GR",
+                  "carbonIntensity": 410.01
+                }
+              },
+              "Cyprus": {
+                "Any": {
+                  "location": "CY",
+                  "carbonIntensity": 642.9
+                }
+              },
+              "Romania": {
+                "Any": {
+                  "location": "RO",
+                  "carbonIntensity": 261.84
+                }
+              },
+              "France": {
+                "Any": {
+                  "location": "FR",
+                  "carbonIntensity": 51.28
+                }
+              },
+              "Luxembourg": {
+                "Any": {
+                  "location": "LU",
+                  "carbonIntensity": 101.36
+                }
+              },
+              "Bulgaria": {
+                "Any": {
+                  "location": "BG",
+                  "carbonIntensity": 372.12
+                }
+              },
+              "Slovenia": {
+                "Any": {
+                  "location": "SI",
+                  "carbonIntensity": 224.05
+                }
+              },
+              "Italy": {
+                "Any": {
+                  "location": "IT",
+                  "carbonIntensity": 323.84
+                }
+              },
+              "Austria": {
+                "Any": {
+                  "location": "AT",
+                  "carbonIntensity": 111.18
+                }
+              },
+              "Portugal": {
+                "Any": {
+                  "location": "PT",
+                  "carbonIntensity": 201.55
+                }
+              },
+              "Sweden": {
+                "Any": {
+                  "location": "SE",
+                  "carbonIntensity": 5.67
+                }
+              },
+              "Czech Republic": {
+                "Any": {
+                  "location": "CZ",
+                  "carbonIntensity": 495.49
+                }
+              },
+              "Denmark": {
+                "Any": {
+                  "location": "DK",
+                  "carbonIntensity": 142.52
+                }
+              },
+              "Serbia": {
+                "Any": {
+                  "location": "RS",
+                  "carbonIntensity": 776.69
+                }
+              },
+              "Hungary": {
+                "Any": {
+                  "location": "HU",
+                  "carbonIntensity": 243.75
+                }
+              },
+              "Iceland": {
+                "Any": {
+                  "location": "IS",
+                  "carbonIntensity": 0.13
+                }
+              },
+              "Latvia": {
+                "Any": {
+                  "location": "LV",
+                  "carbonIntensity": 215.67
+                }
+              },
+              "Slovakia": {
+                "Any": {
+                  "location": "SK",
+                  "carbonIntensity": 155.48
+                }
+              },
+              "Russian Federation": {
+                "Any": {
+                  "location": "RU",
+                  "carbonIntensity": 310.2
+                }
+              },
+              "Switzerland": {
+                "Any": {
+                  "location": "CH",
+                  "carbonIntensity": 11.52
+                }
+              },
+              "Croatia": {
+                "Any": {
+                  "location": "HR",
+                  "carbonIntensity": 226.96
+                }
+              },
+              "United Kingdom": {
+                "Any": {
+                  "location": "GB",
+                  "carbonIntensity": 231.12
+                }
+              },
+              "Norway": {
+                "Any": {
+                  "location": "NO",
+                  "carbonIntensity": 7.62
+                }
+              },
+              "Lithuania": {
+                "Any": {
+                  "location": "LT",
+                  "carbonIntensity": 253.56
+                }
+              },
+              "Germany": {
+                "Any": {
+                  "location": "DE",
+                  "carbonIntensity": 338.66
+                }
+              },
+              "Spain": {
+                "Any": {
+                  "location": "ES",
+                  "carbonIntensity": 171.03
+                }
+              },
+              "Ireland": {
+                "Any": {
+                  "location": "IE",
+                  "carbonIntensity": 335.99
+                }
+              },
+              "Netherlands": {
+                "Any": {
+                  "location": "NL",
+                  "carbonIntensity": 374.34
+                }
+              },
+              "Estonia": {
+                "Any": {
+                  "location": "EE",
+                  "carbonIntensity": 598.69
+                }
+              },
+              "Finland": {
+                "Any": {
+                  "location": "FI",
+                  "carbonIntensity": 95.32
+                }
+              },
+              "Belgium": {
+                "Any": {
+                  "location": "BE",
+                  "carbonIntensity": 161.89
+                }
+              },
+              "Malta": {
+                "Any": {
+                  "location": "MT",
+                  "carbonIntensity": 390.62
+                }
+              },
+              "Poland": {
+                "Any": {
+                  "location": "PL",
+                  "carbonIntensity": 759.62
+                }
+              }
+            },
+            "North America": {
+              "United States of America": {
+                "Hawaii": {
+                  "location": "US-HI",
+                  "carbonIntensity": 731.21
+                },
+                "Maine": {
+                  "location": "US-ME",
+                  "carbonIntensity": 109
+                },
+                "Indiana": {
+                  "location": "US-IN",
+                  "carbonIntensity": 740.02
+                },
+                "Montana": {
+                  "location": "US-MT",
+                  "carbonIntensity": 435.87
+                },
+                "New Mexico": {
+                  "location": "US-NM",
+                  "carbonIntensity": 601.77
+                },
+                "Kansas": {
+                  "location": "US-KS",
+                  "carbonIntensity": 384.08
+                },
+                "Wisconsin": {
+                  "location": "US-WI",
+                  "carbonIntensity": 569.39
+                },
+                "Massachusetts": {
+                  "location": "US-MA",
+                  "carbonIntensity": 420.32
+                },
+                "Virginia": {
+                  "location": "US-VA",
+                  "carbonIntensity": 308
+                },
+                "Minnesota": {
+                  "location": "US-MN",
+                  "carbonIntensity": 367.93
+                },
+                "South Dakota": {
+                  "location": "US-SD",
+                  "carbonIntensity": 162.69
+                },
+                "Alabama": {
+                  "location": "US-AL",
+                  "carbonIntensity": 344.37
+                },
+                "Missouri": {
+                  "location": "US-MO",
+                  "carbonIntensity": 773
+                },
+                "Nebraska": {
+                  "location": "US-NE",
+                  "carbonIntensity": 573.51
+                },
+                "Texas": {
+                  "location": "US-TX",
+                  "carbonIntensity": 409.16
+                },
+                "Connecticut": {
+                  "location": "US-CT",
+                  "carbonIntensity": 253
+                },
+                "Florida": {
+                  "location": "US-FL",
+                  "carbonIntensity": 402.2
+                },
+                "Rhode Island": {
+                  "location": "US-RI",
+                  "carbonIntensity": 395.27
+                },
+                "California": {
+                  "location": "US-CA",
+                  "carbonIntensity": 216.43
+                },
+                "Delaware": {
+                  "location": "US-DE",
+                  "carbonIntensity": 360.68
+                },
+                "Idaho": {
+                  "location": "US-ID",
+                  "carbonIntensity": 101.89
+                },
+                "New York": {
+                  "location": "US-NY",
+                  "carbonIntensity": 199.01
+                },
+                "Utah": {
+                  "location": "US-UT",
+                  "carbonIntensity": 747.82
+                },
+                "New Jersey": {
+                  "location": "US-NJ",
+                  "carbonIntensity": 235.1
+                },
+                "Louisiana": {
+                  "location": "US-LA",
+                  "carbonIntensity": 363.82
+                },
+                "Mississip": {
+                  "location": "US-MS",
+                  "carbonIntensity": 427.07
+                },
+                "Michigan": {
+                  "location": "US-MI",
+                  "carbonIntensity": 448.08
+                },
+                "New Hampshire": {
+                  "location": "US-NH",
+                  "carbonIntensity": 118.44
+                },
+                "Ohio": {
+                  "location": "US-OH",
+                  "carbonIntensity": 598.58
+                },
+                "North Carolina": {
+                  "location": "US-NC",
+                  "carbonIntensity": 309.73
+                },
+                "Nevada": {
+                  "location": "US-NV",
+                  "carbonIntensity": 342.25
+                },
+                "North Dakota": {
+                  "location": "US-ND",
+                  "carbonIntensity": 663.05
+                },
+                "Colorado": {
+                  "location": "US-CO",
+                  "carbonIntensity": 582.34
+                },
+                "Vermont": {
+                  "location": "US-VT",
+                  "carbonIntensity": 14.45
+                },
+                "Oregon": {
+                  "location": "US-OR",
+                  "carbonIntensity": 163.15
+                },
+                "South Carolina": {
+                  "location": "US-SC",
+                  "carbonIntensity": 245.48
+                },
+                "West Virginia": {
+                  "location": "US-WV",
+                  "carbonIntensity": 919.34
+                },
+                "Iowa": {
+                  "location": "US-IA",
+                  "carbonIntensity": 293.85
+                },
+                "Kentucky": {
+                  "location": "US-KY",
+                  "carbonIntensity": 804.75
+                },
+                "Maryland": {
+                  "location": "US-MD",
+                  "carbonIntensity": 308.21
+                },
+                "Oklahoma": {
+                  "location": "US-OK",
+                  "carbonIntensity": 338.44
+                },
+                "Pennsylvania": {
+                  "location": "US-PA",
+                  "carbonIntensity": 333.19
+                },
+                "Wyoming": {
+                  "location": "US-WY",
+                  "carbonIntensity": 950.5
+                },
+                "Alaska": {
+                  "location": "US-AK",
+                  "carbonIntensity": 462.33
+                },
+                "Arkansas": {
+                  "location": "US-AR",
+                  "carbonIntensity": 454.4
+                },
+                "Illinois": {
+                  "location": "US-IL",
+                  "carbonIntensity": 265.8
+                },
+                "Any": {
+                  "location": "US",
+                  "carbonIntensity": 423.94
+                },
+                "Washington": {
+                  "location": "US-WA",
+                  "carbonIntensity": 101.84
+                },
+                "Washington DC": {
+                  "location": "US-DC",
+                  "carbonIntensity": 382.68
+                },
+                "Georgia": {
+                  "location": "US-GA",
+                  "carbonIntensity": 345.58
+                },
+                "Tennessee": {
+                  "location": "US-TN",
+                  "carbonIntensity": 272.89
+                },
+                "Arizona": {
+                  "location": "US-AZ",
+                  "carbonIntensity": 351.99
+                }
+              },
+              "Mexico": {
+                "Any": {
+                  "location": "MX",
+                  "carbonIntensity": 431.4
+                }
+              },
+              "Canada": {
+                "Yukon Territory": {
+                  "location": "CA-YT",
+                  "carbonIntensity": 111
+                },
+                "Alberta": {
+                  "location": "CA-AB",
+                  "carbonIntensity": 670
+                },
+                "British Columbia": {
+                  "location": "CA-BC",
+                  "carbonIntensity": 19.7
+                },
+                "Nova Scotia": {
+                  "location": "CA-NS",
+                  "carbonIntensity": 810
+                },
+                "Nunavut": {
+                  "location": "CA-NU",
+                  "carbonIntensity": 900
+                },
+                "New Brunswick": {
+                  "location": "CA-NB",
+                  "carbonIntensity": 270
+                },
+                "Any": {
+                  "location": "CA",
+                  "carbonIntensity": 120
+                },
+                "Manitoba": {
+                  "location": "CA-MT",
+                  "carbonIntensity": 1.3
+                },
+                "Northwest Territories": {
+                  "location": "CA-NT",
+                  "carbonIntensity": 200
+                },
+                "Prince Edward Island": {
+                  "location": "CA-PE",
+                  "carbonIntensity": 2
+                },
+                "Quebec": {
+                  "location": "CA-QC",
+                  "carbonIntensity": 1.5
+                },
+                "Saskatchewan": {
+                  "location": "CA-SK",
+                  "carbonIntensity": 710
+                },
+                "Newfoundland and Labrador": {
+                  "location": "CA-NL",
+                  "carbonIntensity": 29
+                },
+                "Ontario": {
+                  "location": "CA-ON",
+                  "carbonIntensity": 30
+                }
+              }
+            },
+            "Asia": {
+              "India": {
+                "Any": {
+                  "location": "IN",
+                  "carbonIntensity": 708.2
+                }
+              },
+              "Singapore": {
+                "Any": {
+                  "location": "SG",
+                  "carbonIntensity": 408
+                }
+              },
+              "China": {
+                "Hong Kong (CLP Group)": {
+                  "location": "CN-HK2",
+                  "carbonIntensity": 650
+                },
+                "Any": {
+                  "location": "CN",
+                  "carbonIntensity": 537.4
+                },
+                "Taiwan": {
+                  "location": "TW",
+                  "carbonIntensity": 509
+                },
+                "Hong Kong (HK Electricity Company)": {
+                  "location": "CN-HK",
+                  "carbonIntensity": 710
+                }
+              },
+              "Saudi Arabia": {
+                "Any": {
+                  "location": "SA",
+                  "carbonIntensity": 505.9
+                }
+              },
+              "Israel": {
+                "Any": {
+                  "location": "IL",
+                  "carbonIntensity": 558
+                }
+              },
+              "United Arab Emirates": {
+                "Any": {
+                  "location": "AE",
+                  "carbonIntensity": 417.89
+                }
+              },
+              "Japan": {
+                "Any": {
+                  "location": "JP",
+                  "carbonIntensity": 465.8
+                }
+              },
+              "Turkey": {
+                "Any": {
+                  "location": "TR",
+                  "carbonIntensity": 375
+                }
+              },
+              "Indonesia": {
+                "Any": {
+                  "location": "ID",
+                  "carbonIntensity": 717.7
+                }
+              },
+              "Thailand": {
+                "Any": {
+                  "location": "TH",
+                  "carbonIntensity": 481
+                }
+              },
+              "Korea": {
+                "Any": {
+                  "location": "KR",
+                  "carbonIntensity": 415.6
+                }
+              }
+            },
+            "World": {
+              "Any": {
+                "Any": {
+                  "location": "WORLD",
+                  "carbonIntensity": 475
+                }
+              }
+            },
+            "Africa": {
+              "South Africa": {
+                "Any": {
+                  "location": "ZA",
+                  "carbonIntensity": 900.6
+                }
+              }
+            }
+          },
+          "providers_withoutDC": [
+            "aws"
+          ],
+          "datacenters_dict_byProvider": {
+            "azure": {
+              "South Africa North": {
+                "Name": "South Africa North",
+                "name_unique": "azure / South Africa North",
+                "location": "ZA",
+                "PUE": null
+              },
+              "South Africa West": {
+                "Name": "South Africa West",
+                "name_unique": "azure / South Africa West",
+                "location": "ZA",
+                "PUE": null
+              },
+              "East Asia": {
+                "Name": "East Asia",
+                "name_unique": "azure / East Asia",
+                "location": "CN-HK",
+                "PUE": null
+              },
+              "Southeast Asia": {
+                "Name": "Southeast Asia",
+                "name_unique": "azure / Southeast Asia",
+                "location": "SG",
+                "PUE": null
+              },
+              "Australia Central": {
+                "Name": "Australia Central",
+                "name_unique": "azure / Australia Central",
+                "location": "AU-ACT",
+                "PUE": null
+              },
+              "Australia Central 2": {
+                "Name": "Australia Central 2",
+                "name_unique": "azure / Australia Central 2",
+                "location": "AU-ACT",
+                "PUE": null
+              },
+              "Australia East": {
+                "Name": "Australia East",
+                "name_unique": "azure / Australia East",
+                "location": "AU-NSW",
+                "PUE": null
+              },
+              "Australia Southeast": {
+                "Name": "Australia Southeast",
+                "name_unique": "azure / Australia Southeast",
+                "location": "AU-VIC",
+                "PUE": null
+              },
+              "Brazil South": {
+                "Name": "Brazil South",
+                "name_unique": "azure / Brazil South",
+                "location": "BR",
+                "PUE": null
+              },
+              "Canada Central": {
+                "Name": "Canada Central",
+                "name_unique": "azure / Canada Central",
+                "location": "CA-ON",
+                "PUE": null
+              },
+              "Canada East": {
+                "Name": "Canada East",
+                "name_unique": "azure / Canada East",
+                "location": "CA-QC",
+                "PUE": null
+              },
+              "China East": {
+                "Name": "China East",
+                "name_unique": "azure / China East",
+                "location": "CN",
+                "PUE": null
+              },
+              "China East 2": {
+                "Name": "China East 2",
+                "name_unique": "azure / China East 2",
+                "location": "CN",
+                "PUE": null
+              },
+              "China North": {
+                "Name": "China North",
+                "name_unique": "azure / China North",
+                "location": "CN",
+                "PUE": null
+              },
+              "China North 2": {
+                "Name": "China North 2",
+                "name_unique": "azure / China North 2",
+                "location": "CN",
+                "PUE": null
+              },
+              "North Europe": {
+                "Name": "North Europe",
+                "name_unique": "azure / North Europe",
+                "location": "IE",
+                "PUE": null
+              },
+              "West Europe": {
+                "Name": "West Europe",
+                "name_unique": "azure / West Europe",
+                "location": "NL",
+                "PUE": null
+              },
+              "France Central": {
+                "Name": "France Central",
+                "name_unique": "azure / France Central",
+                "location": "FR",
+                "PUE": null
+              },
+              "France South": {
+                "Name": "France South",
+                "name_unique": "azure / France South",
+                "location": "FR",
+                "PUE": null
+              },
+              "Germany Central (Sovereign)": {
+                "Name": "Germany Central (Sovereign)",
+                "name_unique": "azure / Germany Central (Sovereign)",
+                "location": "DE",
+                "PUE": null
+              },
+              "Germany North (Public)": {
+                "Name": "Germany North (Public)",
+                "name_unique": "azure / Germany North (Public)",
+                "location": "DE",
+                "PUE": null
+              },
+              "Germany Northeastt (Sovereign)": {
+                "Name": "Germany Northeastt (Sovereign)",
+                "name_unique": "azure / Germany Northeastt (Sovereign)",
+                "location": "DE",
+                "PUE": null
+              },
+              "Germany West Central (Public)": {
+                "Name": "Germany West Central (Public)",
+                "name_unique": "azure / Germany West Central (Public)",
+                "location": "DE",
+                "PUE": null
+              },
+              "Central India": {
+                "Name": "Central India",
+                "name_unique": "azure / Central India",
+                "location": "IN",
+                "PUE": null
+              },
+              "South India": {
+                "Name": "South India",
+                "name_unique": "azure / South India",
+                "location": "IN",
+                "PUE": null
+              },
+              "West India": {
+                "Name": "West India",
+                "name_unique": "azure / West India",
+                "location": "IN",
+                "PUE": null
+              },
+              "Israel Central": {
+                "Name": "Israel Central",
+                "name_unique": "azure / Israel Central",
+                "location": "IL",
+                "PUE": null
+              },
+              "Italy North": {
+                "Name": "Italy North",
+                "name_unique": "azure / Italy North",
+                "location": "IT",
+                "PUE": null
+              },
+              "Japan East": {
+                "Name": "Japan East",
+                "name_unique": "azure / Japan East",
+                "location": "JP",
+                "PUE": null
+              },
+              "Japan West": {
+                "Name": "Japan West",
+                "name_unique": "azure / Japan West",
+                "location": "JP",
+                "PUE": null
+              },
+              "Korea Central": {
+                "Name": "Korea Central",
+                "name_unique": "azure / Korea Central",
+                "location": "KR",
+                "PUE": null
+              },
+              "Korea South": {
+                "Name": "Korea South",
+                "name_unique": "azure / Korea South",
+                "location": "KR",
+                "PUE": null
+              },
+              "Mexico Central": {
+                "Name": "Mexico Central",
+                "name_unique": "azure / Mexico Central",
+                "location": "MX",
+                "PUE": null
+              },
+              "New Zealand North": {
+                "Name": "New Zealand North",
+                "name_unique": "azure / New Zealand North",
+                "location": "NZ",
+                "PUE": null
+              },
+              "Norway East": {
+                "Name": "Norway East",
+                "name_unique": "azure / Norway East",
+                "location": "NO",
+                "PUE": null
+              },
+              "Norway West": {
+                "Name": "Norway West",
+                "name_unique": "azure / Norway West",
+                "location": "NO",
+                "PUE": null
+              },
+              "Poland Central": {
+                "Name": "Poland Central",
+                "name_unique": "azure / Poland Central",
+                "location": "PL",
+                "PUE": null
+              },
+              "Spain Central": {
+                "Name": "Spain Central",
+                "name_unique": "azure / Spain Central",
+                "location": "ES",
+                "PUE": null
+              },
+              "Switzerland North": {
+                "Name": "Switzerland North",
+                "name_unique": "azure / Switzerland North",
+                "location": "CH",
+                "PUE": null
+              },
+              "Switzerland West": {
+                "Name": "Switzerland West",
+                "name_unique": "azure / Switzerland West",
+                "location": "CH",
+                "PUE": null
+              },
+              "UAE Central": {
+                "Name": "UAE Central",
+                "name_unique": "azure / UAE Central",
+                "location": "AE",
+                "PUE": null
+              },
+              "UAE North": {
+                "Name": "UAE North",
+                "name_unique": "azure / UAE North",
+                "location": "AE",
+                "PUE": null
+              },
+              "UK South": {
+                "Name": "UK South",
+                "name_unique": "azure / UK South",
+                "location": "GB",
+                "PUE": null
+              },
+              "UK West": {
+                "Name": "UK West",
+                "name_unique": "azure / UK West",
+                "location": "GB",
+                "PUE": null
+              },
+              "Central US": {
+                "Name": "Central US",
+                "name_unique": "azure / Central US",
+                "location": "US-IA",
+                "PUE": null
+              },
+              "East US": {
+                "Name": "East US",
+                "name_unique": "azure / East US",
+                "location": "US-VA",
+                "PUE": null
+              },
+              "East US 2": {
+                "Name": "East US 2",
+                "name_unique": "azure / East US 2",
+                "location": "US-VA",
+                "PUE": null
+              },
+              "North Central US": {
+                "Name": "North Central US",
+                "name_unique": "azure / North Central US",
+                "location": "US-IL",
+                "PUE": null
+              },
+              "South Central US": {
+                "Name": "South Central US",
+                "name_unique": "azure / South Central US",
+                "location": "US-TX",
+                "PUE": null
+              },
+              "West Central US": {
+                "Name": "West Central US",
+                "name_unique": "azure / West Central US",
+                "location": "US-WY",
+                "PUE": null
+              },
+              "West US": {
+                "Name": "West US",
+                "name_unique": "azure / West US",
+                "location": "US-CA",
+                "PUE": null
+              },
+              "West US 2": {
+                "Name": "West US 2",
+                "name_unique": "azure / West US 2",
+                "location": "US-WA",
+                "PUE": null
+              },
+              "West US 3": {
+                "Name": "West US 3",
+                "name_unique": "azure / West US 3",
+                "location": "US-AZ",
+                "PUE": null
+              }
+            },
+            "gcp": {
+              "us-west1": {
+                "Name": "us-west1",
+                "name_unique": "gcp / us-west1",
+                "location": "US-OR",
+                "PUE": 1.11
+              },
+              "us-west2": {
+                "Name": "us-west2",
+                "name_unique": "gcp / us-west2",
+                "location": "US-CA",
+                "PUE": null
+              },
+              "us-west3": {
+                "Name": "us-west3",
+                "name_unique": "gcp / us-west3",
+                "location": "US-UT",
+                "PUE": null
+              },
+              "us-west4": {
+                "Name": "us-west4",
+                "name_unique": "gcp / us-west4",
+                "location": "US-NV",
+                "PUE": null
+              },
+              "us-central1": {
+                "Name": "us-central1",
+                "name_unique": "gcp / us-central1",
+                "location": "US-IA",
+                "PUE": 1.11
+              },
+              "us-east1": {
+                "Name": "us-east1",
+                "name_unique": "gcp / us-east1",
+                "location": "US-SC",
+                "PUE": 1.11
+              },
+              "us-east4": {
+                "Name": "us-east4",
+                "name_unique": "gcp / us-east4",
+                "location": "US-VA",
+                "PUE": null
+              },
+              "northamerica-northeast1": {
+                "Name": "northamerica-northeast1",
+                "name_unique": "gcp / northamerica-northeast1",
+                "location": "CA-QC",
+                "PUE": null
+              },
+              "southamerica-east1": {
+                "Name": "southamerica-east1",
+                "name_unique": "gcp / southamerica-east1",
+                "location": "BR",
+                "PUE": null
+              },
+              "europe-west1": {
+                "Name": "europe-west1",
+                "name_unique": "gcp / europe-west1",
+                "location": "BE",
+                "PUE": 1.08
+              },
+              "europe-west2": {
+                "Name": "europe-west2",
+                "name_unique": "gcp / europe-west2",
+                "location": "GB",
+                "PUE": null
+              },
+              "europe-west3": {
+                "Name": "europe-west3",
+                "name_unique": "gcp / europe-west3",
+                "location": "DE",
+                "PUE": null
+              },
+              "europe-west4": {
+                "Name": "europe-west4",
+                "name_unique": "gcp / europe-west4",
+                "location": "NL",
+                "PUE": null
+              },
+              "europe-west6": {
+                "Name": "europe-west6",
+                "name_unique": "gcp / europe-west6",
+                "location": "CH",
+                "PUE": null
+              },
+              "europe-north1": {
+                "Name": "europe-north1",
+                "name_unique": "gcp / europe-north1",
+                "location": "FI",
+                "PUE": 1.09
+              },
+              "asia-south1": {
+                "Name": "asia-south1",
+                "name_unique": "gcp / asia-south1",
+                "location": "IN",
+                "PUE": null
+              },
+              "asia-southeast1": {
+                "Name": "asia-southeast1",
+                "name_unique": "gcp / asia-southeast1",
+                "location": "SG",
+                "PUE": 1.15
+              },
+              "asia-southeast2": {
+                "Name": "asia-southeast2",
+                "name_unique": "gcp / asia-southeast2",
+                "location": "ID",
+                "PUE": null
+              },
+              "asia-east2": {
+                "Name": "asia-east2",
+                "name_unique": "gcp / asia-east2",
+                "location": "CN-HK",
+                "PUE": null
+              },
+              "asia-east1": {
+                "Name": "asia-east1",
+                "name_unique": "gcp / asia-east1",
+                "location": "TW",
+                "PUE": 1.13
+              },
+              "asia-northeast1": {
+                "Name": "asia-northeast1",
+                "name_unique": "gcp / asia-northeast1",
+                "location": "JP",
+                "PUE": null
+              },
+              "asia-northeast2": {
+                "Name": "asia-northeast2",
+                "name_unique": "gcp / asia-northeast2",
+                "location": "JP",
+                "PUE": null
+              },
+              "asia-northeast3": {
+                "Name": "asia-northeast3",
+                "name_unique": "gcp / asia-northeast3",
+                "location": "KR",
+                "PUE": null
+              },
+              "australia-southeast1": {
+                "Name": "australia-southeast1",
+                "name_unique": "gcp / australia-southeast1",
+                "location": "AU-NSW",
+                "PUE": null
+              }
+            }
+          },
+          "datacenters_dict_byName": {
+            "gcp / us-west1": {
+              "provider": "gcp",
+              "Name": "us-west1",
+              "name_unique": "gcp / us-west1",
+              "location": "US-OR",
+              "PUE": 1.11
+            },
+            "gcp / us-west2": {
+              "provider": "gcp",
+              "Name": "us-west2",
+              "name_unique": "gcp / us-west2",
+              "location": "US-CA",
+              "PUE": null
+            },
+            "gcp / us-west3": {
+              "provider": "gcp",
+              "Name": "us-west3",
+              "name_unique": "gcp / us-west3",
+              "location": "US-UT",
+              "PUE": null
+            },
+            "gcp / us-west4": {
+              "provider": "gcp",
+              "Name": "us-west4",
+              "name_unique": "gcp / us-west4",
+              "location": "US-NV",
+              "PUE": null
+            },
+            "gcp / us-central1": {
+              "provider": "gcp",
+              "Name": "us-central1",
+              "name_unique": "gcp / us-central1",
+              "location": "US-IA",
+              "PUE": 1.11
+            },
+            "gcp / us-east1": {
+              "provider": "gcp",
+              "Name": "us-east1",
+              "name_unique": "gcp / us-east1",
+              "location": "US-SC",
+              "PUE": 1.11
+            },
+            "gcp / us-east4": {
+              "provider": "gcp",
+              "Name": "us-east4",
+              "name_unique": "gcp / us-east4",
+              "location": "US-VA",
+              "PUE": null
+            },
+            "gcp / northamerica-northeast1": {
+              "provider": "gcp",
+              "Name": "northamerica-northeast1",
+              "name_unique": "gcp / northamerica-northeast1",
+              "location": "CA-QC",
+              "PUE": null
+            },
+            "gcp / southamerica-east1": {
+              "provider": "gcp",
+              "Name": "southamerica-east1",
+              "name_unique": "gcp / southamerica-east1",
+              "location": "BR",
+              "PUE": null
+            },
+            "gcp / europe-west1": {
+              "provider": "gcp",
+              "Name": "europe-west1",
+              "name_unique": "gcp / europe-west1",
+              "location": "BE",
+              "PUE": 1.08
+            },
+            "gcp / europe-west2": {
+              "provider": "gcp",
+              "Name": "europe-west2",
+              "name_unique": "gcp / europe-west2",
+              "location": "GB",
+              "PUE": null
+            },
+            "gcp / europe-west3": {
+              "provider": "gcp",
+              "Name": "europe-west3",
+              "name_unique": "gcp / europe-west3",
+              "location": "DE",
+              "PUE": null
+            },
+            "gcp / europe-west4": {
+              "provider": "gcp",
+              "Name": "europe-west4",
+              "name_unique": "gcp / europe-west4",
+              "location": "NL",
+              "PUE": null
+            },
+            "gcp / europe-west6": {
+              "provider": "gcp",
+              "Name": "europe-west6",
+              "name_unique": "gcp / europe-west6",
+              "location": "CH",
+              "PUE": null
+            },
+            "gcp / europe-north1": {
+              "provider": "gcp",
+              "Name": "europe-north1",
+              "name_unique": "gcp / europe-north1",
+              "location": "FI",
+              "PUE": 1.09
+            },
+            "gcp / asia-south1": {
+              "provider": "gcp",
+              "Name": "asia-south1",
+              "name_unique": "gcp / asia-south1",
+              "location": "IN",
+              "PUE": null
+            },
+            "gcp / asia-southeast1": {
+              "provider": "gcp",
+              "Name": "asia-southeast1",
+              "name_unique": "gcp / asia-southeast1",
+              "location": "SG",
+              "PUE": 1.15
+            },
+            "gcp / asia-southeast2": {
+              "provider": "gcp",
+              "Name": "asia-southeast2",
+              "name_unique": "gcp / asia-southeast2",
+              "location": "ID",
+              "PUE": null
+            },
+            "gcp / asia-east2": {
+              "provider": "gcp",
+              "Name": "asia-east2",
+              "name_unique": "gcp / asia-east2",
+              "location": "CN-HK",
+              "PUE": null
+            },
+            "gcp / asia-east1": {
+              "provider": "gcp",
+              "Name": "asia-east1",
+              "name_unique": "gcp / asia-east1",
+              "location": "TW",
+              "PUE": 1.13
+            },
+            "gcp / asia-northeast1": {
+              "provider": "gcp",
+              "Name": "asia-northeast1",
+              "name_unique": "gcp / asia-northeast1",
+              "location": "JP",
+              "PUE": null
+            },
+            "gcp / asia-northeast2": {
+              "provider": "gcp",
+              "Name": "asia-northeast2",
+              "name_unique": "gcp / asia-northeast2",
+              "location": "JP",
+              "PUE": null
+            },
+            "gcp / asia-northeast3": {
+              "provider": "gcp",
+              "Name": "asia-northeast3",
+              "name_unique": "gcp / asia-northeast3",
+              "location": "KR",
+              "PUE": null
+            },
+            "gcp / australia-southeast1": {
+              "provider": "gcp",
+              "Name": "australia-southeast1",
+              "name_unique": "gcp / australia-southeast1",
+              "location": "AU-NSW",
+              "PUE": null
+            },
+            "azure / South Africa North": {
+              "provider": "azure",
+              "Name": "South Africa North",
+              "name_unique": "azure / South Africa North",
+              "location": "ZA",
+              "PUE": null
+            },
+            "azure / South Africa West": {
+              "provider": "azure",
+              "Name": "South Africa West",
+              "name_unique": "azure / South Africa West",
+              "location": "ZA",
+              "PUE": null
+            },
+            "azure / East Asia": {
+              "provider": "azure",
+              "Name": "East Asia",
+              "name_unique": "azure / East Asia",
+              "location": "CN-HK",
+              "PUE": null
+            },
+            "azure / Southeast Asia": {
+              "provider": "azure",
+              "Name": "Southeast Asia",
+              "name_unique": "azure / Southeast Asia",
+              "location": "SG",
+              "PUE": null
+            },
+            "azure / Australia Central": {
+              "provider": "azure",
+              "Name": "Australia Central",
+              "name_unique": "azure / Australia Central",
+              "location": "AU-ACT",
+              "PUE": null
+            },
+            "azure / Australia Central 2": {
+              "provider": "azure",
+              "Name": "Australia Central 2",
+              "name_unique": "azure / Australia Central 2",
+              "location": "AU-ACT",
+              "PUE": null
+            },
+            "azure / Australia East": {
+              "provider": "azure",
+              "Name": "Australia East",
+              "name_unique": "azure / Australia East",
+              "location": "AU-NSW",
+              "PUE": null
+            },
+            "azure / Australia Southeast": {
+              "provider": "azure",
+              "Name": "Australia Southeast",
+              "name_unique": "azure / Australia Southeast",
+              "location": "AU-VIC",
+              "PUE": null
+            },
+            "azure / Brazil South": {
+              "provider": "azure",
+              "Name": "Brazil South",
+              "name_unique": "azure / Brazil South",
+              "location": "BR",
+              "PUE": null
+            },
+            "azure / Canada Central": {
+              "provider": "azure",
+              "Name": "Canada Central",
+              "name_unique": "azure / Canada Central",
+              "location": "CA-ON",
+              "PUE": null
+            },
+            "azure / Canada East": {
+              "provider": "azure",
+              "Name": "Canada East",
+              "name_unique": "azure / Canada East",
+              "location": "CA-QC",
+              "PUE": null
+            },
+            "azure / China East": {
+              "provider": "azure",
+              "Name": "China East",
+              "name_unique": "azure / China East",
+              "location": "CN",
+              "PUE": null
+            },
+            "azure / China East 2": {
+              "provider": "azure",
+              "Name": "China East 2",
+              "name_unique": "azure / China East 2",
+              "location": "CN",
+              "PUE": null
+            },
+            "azure / China North": {
+              "provider": "azure",
+              "Name": "China North",
+              "name_unique": "azure / China North",
+              "location": "CN",
+              "PUE": null
+            },
+            "azure / China North 2": {
+              "provider": "azure",
+              "Name": "China North 2",
+              "name_unique": "azure / China North 2",
+              "location": "CN",
+              "PUE": null
+            },
+            "azure / North Europe": {
+              "provider": "azure",
+              "Name": "North Europe",
+              "name_unique": "azure / North Europe",
+              "location": "IE",
+              "PUE": null
+            },
+            "azure / West Europe": {
+              "provider": "azure",
+              "Name": "West Europe",
+              "name_unique": "azure / West Europe",
+              "location": "NL",
+              "PUE": null
+            },
+            "azure / France Central": {
+              "provider": "azure",
+              "Name": "France Central",
+              "name_unique": "azure / France Central",
+              "location": "FR",
+              "PUE": null
+            },
+            "azure / France South": {
+              "provider": "azure",
+              "Name": "France South",
+              "name_unique": "azure / France South",
+              "location": "FR",
+              "PUE": null
+            },
+            "azure / Germany Central (Sovereign)": {
+              "provider": "azure",
+              "Name": "Germany Central (Sovereign)",
+              "name_unique": "azure / Germany Central (Sovereign)",
+              "location": "DE",
+              "PUE": null
+            },
+            "azure / Germany North (Public)": {
+              "provider": "azure",
+              "Name": "Germany North (Public)",
+              "name_unique": "azure / Germany North (Public)",
+              "location": "DE",
+              "PUE": null
+            },
+            "azure / Germany Northeastt (Sovereign)": {
+              "provider": "azure",
+              "Name": "Germany Northeastt (Sovereign)",
+              "name_unique": "azure / Germany Northeastt (Sovereign)",
+              "location": "DE",
+              "PUE": null
+            },
+            "azure / Germany West Central (Public)": {
+              "provider": "azure",
+              "Name": "Germany West Central (Public)",
+              "name_unique": "azure / Germany West Central (Public)",
+              "location": "DE",
+              "PUE": null
+            },
+            "azure / Central India": {
+              "provider": "azure",
+              "Name": "Central India",
+              "name_unique": "azure / Central India",
+              "location": "IN",
+              "PUE": null
+            },
+            "azure / South India": {
+              "provider": "azure",
+              "Name": "South India",
+              "name_unique": "azure / South India",
+              "location": "IN",
+              "PUE": null
+            },
+            "azure / West India": {
+              "provider": "azure",
+              "Name": "West India",
+              "name_unique": "azure / West India",
+              "location": "IN",
+              "PUE": null
+            },
+            "azure / Israel Central": {
+              "provider": "azure",
+              "Name": "Israel Central",
+              "name_unique": "azure / Israel Central",
+              "location": "IL",
+              "PUE": null
+            },
+            "azure / Italy North": {
+              "provider": "azure",
+              "Name": "Italy North",
+              "name_unique": "azure / Italy North",
+              "location": "IT",
+              "PUE": null
+            },
+            "azure / Japan East": {
+              "provider": "azure",
+              "Name": "Japan East",
+              "name_unique": "azure / Japan East",
+              "location": "JP",
+              "PUE": null
+            },
+            "azure / Japan West": {
+              "provider": "azure",
+              "Name": "Japan West",
+              "name_unique": "azure / Japan West",
+              "location": "JP",
+              "PUE": null
+            },
+            "azure / Korea Central": {
+              "provider": "azure",
+              "Name": "Korea Central",
+              "name_unique": "azure / Korea Central",
+              "location": "KR",
+              "PUE": null
+            },
+            "azure / Korea South": {
+              "provider": "azure",
+              "Name": "Korea South",
+              "name_unique": "azure / Korea South",
+              "location": "KR",
+              "PUE": null
+            },
+            "azure / Mexico Central": {
+              "provider": "azure",
+              "Name": "Mexico Central",
+              "name_unique": "azure / Mexico Central",
+              "location": "MX",
+              "PUE": null
+            },
+            "azure / New Zealand North": {
+              "provider": "azure",
+              "Name": "New Zealand North",
+              "name_unique": "azure / New Zealand North",
+              "location": "NZ",
+              "PUE": null
+            },
+            "azure / Norway East": {
+              "provider": "azure",
+              "Name": "Norway East",
+              "name_unique": "azure / Norway East",
+              "location": "NO",
+              "PUE": null
+            },
+            "azure / Norway West": {
+              "provider": "azure",
+              "Name": "Norway West",
+              "name_unique": "azure / Norway West",
+              "location": "NO",
+              "PUE": null
+            },
+            "azure / Poland Central": {
+              "provider": "azure",
+              "Name": "Poland Central",
+              "name_unique": "azure / Poland Central",
+              "location": "PL",
+              "PUE": null
+            },
+            "azure / Spain Central": {
+              "provider": "azure",
+              "Name": "Spain Central",
+              "name_unique": "azure / Spain Central",
+              "location": "ES",
+              "PUE": null
+            },
+            "azure / Switzerland North": {
+              "provider": "azure",
+              "Name": "Switzerland North",
+              "name_unique": "azure / Switzerland North",
+              "location": "CH",
+              "PUE": null
+            },
+            "azure / Switzerland West": {
+              "provider": "azure",
+              "Name": "Switzerland West",
+              "name_unique": "azure / Switzerland West",
+              "location": "CH",
+              "PUE": null
+            },
+            "azure / UAE Central": {
+              "provider": "azure",
+              "Name": "UAE Central",
+              "name_unique": "azure / UAE Central",
+              "location": "AE",
+              "PUE": null
+            },
+            "azure / UAE North": {
+              "provider": "azure",
+              "Name": "UAE North",
+              "name_unique": "azure / UAE North",
+              "location": "AE",
+              "PUE": null
+            },
+            "azure / UK South": {
+              "provider": "azure",
+              "Name": "UK South",
+              "name_unique": "azure / UK South",
+              "location": "GB",
+              "PUE": null
+            },
+            "azure / UK West": {
+              "provider": "azure",
+              "Name": "UK West",
+              "name_unique": "azure / UK West",
+              "location": "GB",
+              "PUE": null
+            },
+            "azure / Central US": {
+              "provider": "azure",
+              "Name": "Central US",
+              "name_unique": "azure / Central US",
+              "location": "US-IA",
+              "PUE": null
+            },
+            "azure / East US": {
+              "provider": "azure",
+              "Name": "East US",
+              "name_unique": "azure / East US",
+              "location": "US-VA",
+              "PUE": null
+            },
+            "azure / East US 2": {
+              "provider": "azure",
+              "Name": "East US 2",
+              "name_unique": "azure / East US 2",
+              "location": "US-VA",
+              "PUE": null
+            },
+            "azure / North Central US": {
+              "provider": "azure",
+              "Name": "North Central US",
+              "name_unique": "azure / North Central US",
+              "location": "US-IL",
+              "PUE": null
+            },
+            "azure / South Central US": {
+              "provider": "azure",
+              "Name": "South Central US",
+              "name_unique": "azure / South Central US",
+              "location": "US-TX",
+              "PUE": null
+            },
+            "azure / West Central US": {
+              "provider": "azure",
+              "Name": "West Central US",
+              "name_unique": "azure / West Central US",
+              "location": "US-WY",
+              "PUE": null
+            },
+            "azure / West US": {
+              "provider": "azure",
+              "Name": "West US",
+              "name_unique": "azure / West US",
+              "location": "US-CA",
+              "PUE": null
+            },
+            "azure / West US 2": {
+              "provider": "azure",
+              "Name": "West US 2",
+              "name_unique": "azure / West US 2",
+              "location": "US-WA",
+              "PUE": null
+            },
+            "azure / West US 3": {
+              "provider": "azure",
+              "Name": "West US 3",
+              "name_unique": "azure / West US 3",
+              "location": "US-AZ",
+              "PUE": null
+            }
+          },
+          "providersTypes": {
+            "cloudComputing": "Cloud computing"
+          },
+          "platformName_byType": {
+            "cloudComputing": {
+              "gcp": "Google Cloud Platform",
+              "aws": "Amazon Web Services",
+              "azure": "Azure"
+            }
+          },
+          "refValues_dict": {
+            "memoryPower": 0.3725,
+            "passengerCar_EU_perkm": 175,
+            "passengerCar_US_perkm": 251,
+            "train_perkm": 41,
+            "flight_economy_perkm": 171,
+            "treeYear": 11000,
+            "flight_NY-SF": 570000,
+            "flight_PAR-LON": 50000,
+            "flight_NYC-MEL": 2310000,
+            "streaming_netflix_perhour": 36,
+            "google_search": 10,
+            "tree_month": 917
+          }
+        }
+      },
+      {
+        "id": "coreType_dropdown",
+        "property": "value",
+        "value": "CPU"
+      },
+      {
+        "id": "numberCPUs_input",
+        "property": "value",
+        "value": 12
+      },
+      {
+        "id": "CPUmodel_dropdown",
+        "property": "value",
+        "value": "Xeon E5-2683 v4"
+      },
+      {
+        "id": "tdpCPU_div",
+        "property": "style",
+        "value": {
+          "display": "none"
+        }
+      },
+      {
+        "id": "tdpCPU_input",
+        "property": "value",
+        "value": 12
+      },
+      {
+        "id": "numberGPUs_input",
+        "property": "value",
+        "value": 1
+      },
+      {
+        "id": "GPUmodel_dropdown",
+        "property": "value",
+        "value": "NVIDIA Tesla V100"
+      },
+      {
+        "id": "tdpGPU_div",
+        "property": "style",
+        "value": {
+          "display": "none"
+        }
+      },
+      {
+        "id": "tdpGPU_input",
+        "property": "value",
+        "value": 200
+      },
+      {
+        "id": "memory_input",
+        "property": "value",
+        "value": 64
+      },
+      {
+        "id": "runTime_hour_input",
+        "property": "value",
+        "value": 13
+      },
+      {
+        "id": "runTime_min_input",
+        "property": "value",
+        "value": 0
+      },
+      {
+        "id": "location_continent_dropdown",
+        "property": "value",
+        "value": "Europe"
+      },
+      {
+        "id": "location_country_dropdown",
+        "property": "value",
+        "value": "Austria"
+      },
+      {
+        "id": "location_region_dropdown",
+        "property": "value",
+        "value": "AT"
+      },
+      {
+        "id": "server_continent_dropdown",
+        "property": "value",
+        "value": "Europe"
+      },
+      {
+        "id": "server_dropdown",
+        "property": "value",
+        "value": "gcp / europe-north1"
+      },
+      {
+        "id": "location_div",
+        "property": "style",
+        "value": {
+          "display": "flex"
+        }
+      },
+      {
+        "id": "server_div",
+        "property": "style",
+        "value": {
+          "display": "none"
+        }
+      },
+      {
+        "id": "usageCPU_radio",
+        "property": "value",
+        "value": "No"
+      },
+      {
+        "id": "usageCPU_input",
+        "property": "value",
+        "value": 1
+      },
+      {
+        "id": "usageGPU_radio",
+        "property": "value",
+        "value": "No"
+      },
+      {
+        "id": "usageGPU_input",
+        "property": "value",
+        "value": 1
+      },
+      {
+        "id": "PUEquestion_div",
+        "property": "style",
+        "value": {
+          "display": "flex"
+        }
+      },
+      {
+        "id": "pue_radio",
+        "property": "value",
+        "value": "No"
+      },
+      {
+        "id": "PUE_input",
+        "property": "value",
+        "value": 1.67
+      },
+      {
+        "id": "PSF_radio",
+        "property": "value",
+        "value": "No"
+      },
+      {
+        "id": "PSF_input",
+        "property": "value",
+        "value": 1
+      },
+      {
+        "id": "platformType_dropdown",
+        "property": "value",
+        "value": "localServer"
+      },
+      {
+        "id": "provider_dropdown",
+        "property": "value",
+        "value": "gcp"
+      },
+      {
+        "id": "provider_dropdown_div",
+        "property": "style",
+        "value": {
+          "display": "none"
+        }
+      }
+    ],
+    "state": [
+      {
+        "id": "aggregate_data",
+        "property": "data",
+        "value": {
+          "coreType": "CPU",
+          "CPUmodel": "Xeon E5-2683 v4",
+          "n_CPUcores": 12,
+          "CPUpower": 7.5,
+          "GPUmodel": "NVIDIA Tesla V100",
+          "n_GPUs": 1,
+          "GPUpower": 0,
+          "memory": 64,
+          "runTime_hours": 12,
+          "runTime_min": 0,
+          "runTime": 12,
+          "location": "AT",
+          "carbonIntensity": 111.18,
+          "PUE": 1.67,
+          "PSF": 1,
+          "selected_platform": "localServer",
+          "carbonEmissions": 253.64089324800003,
+          "CE_CPU": 200.524248,
+          "CE_GPU": 0,
+          "CE_core": 200.524248,
+          "CE_memory": 53.116645248,
+          "energy_needed": 2.2813536,
+          "power_needed": 190.1128,
+          "n_treeMonths": 0.2766991562705455,
+          "nkm_drivingUS": 1.0105214870438248,
+          "nkm_drivingEU": 1.4493765328457144,
+          "nkm_train": 6.18636324995122,
+          "flying_context": 0.005072817864960001,
+          "flying_text": "Paris-London",
+          "text_CE": "253.64 g CO2e",
+          "text_energyNeeded": "2.28 kWh",
+          "text_treeYear": "0.28 tree-months",
+          "permalink": "http://calculator.green-algorithms.org//?runTime_hour=12&runTime_min=0&appVersion=v2.2&locationContinent=Europe&locationCountry=Austria&locationRegion=AT&coreType=CPU&numberCPUs=12&CPUmodel=Xeon%20E5-2683%20v4&memory=64&platformType=localServer"
+        }
+      }
+    ]
+  }
