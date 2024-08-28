@@ -9,6 +9,10 @@ resnet_classification_pytorch_vision/calculator_output/
 /UTIL-VAR.json
 /logs_and_results/current_logs_and_results_folder.txt
 /TAPO-credentials.json
+/logs_and_results/2023*
+/logs_and_results/2024*
+/logs_and_results/*/*_logs_and_results/*/*_model/*
+/logs_and_results/*/*_logs_and_results/*/term_logs/*
 
 # --- Ignore logs ---- #
 # *.log
